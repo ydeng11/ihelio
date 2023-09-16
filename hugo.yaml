@@ -1,0 +1,4 @@
+baseURL: "https://ydeng11.github.io/ihelio"
+languageCode: en-us
+title: My New Hugo Site
+theme: PaperMod
