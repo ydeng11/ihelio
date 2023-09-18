@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-R4SSGN5Y2Z
 
 minify:
   disableXML: true
@@ -21,10 +21,7 @@ outputs:
       - RSS
       - JSON # is necessary
 
-# comments:
-#   enabled: true
-#   provider: disqus
-disqusShortname: disqus_1WeJicC6SO
+disqusShortname: ihelio-today
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -128,6 +125,10 @@ menu:
     - identifier: tags
       name: tags
       url: /tags/
+      weight: 20
+    - identifier: search
+      name: search
+      url: search/
       weight: 20
     # - identifier: example
     #   name: example.org
