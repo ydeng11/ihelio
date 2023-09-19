@@ -1,7 +1,12 @@
 ---
-title: "gRPC tutorial - what is gRPC - 1"
+title: "gRPC tutorial - 1: Overview"
 date: 2023-09-16T16:17:15-04:00
-draft: 
+draft:
+categories: 
+    - "Programming"
+tags: 
+    - "gRPC"
+    - "Microservices"
 ---
 
 # What is gRPC
