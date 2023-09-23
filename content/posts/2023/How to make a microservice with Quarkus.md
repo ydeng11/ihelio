@@ -120,4 +120,6 @@ quarkus.flyway.default-schema=minance
 
 ### Build & Deploy
 
-Since Quarkus is meant to be a cloud native framework, it comes with several `Dockerfile` for building a docker image. For example, we could build a docker image using: `docker build --platform linux/amd64 -f src/main/docker/Dockerfile.jvm -t ydeng/minance:0.0.3-beta .` for amd64 platform.
+Since Quarkus is meant to be a cloud native framework, it comes with several `Dockerfile` for building a docker image. For example, we could firstly run `quarkus build` to build an exectuatble jar and build a docker image using: `docker build --platform linux/amd64 -f src/main/docker/Dockerfile.jvm -t repo/image:0.0.1 .` for amd64 platform. 
+
+Then we could deploy it by running `docker run -p 8080:8080 repo/image:0.0.1` to start the container.
