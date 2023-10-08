@@ -10,6 +10,8 @@ tags:
     
 ---
 
+# Overview
+
 In one word, binary search is to search for a target in a sorted array. The idea is to shrink the search space to empty.
 
 It must be sorted because we can be sure how to shrink the search space and we normally reduce the search space by half so the time complexity is `O(logN)` where `N` is the size of entire search space.
@@ -51,7 +53,7 @@ class Solution:
 		return -1
 ```
 
-### Example Questions
+# Example Questions
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
 ```ad-question
@@ -246,7 +248,7 @@ class Solution:
 ```
 
 
-
+# Takeaways
 ```ad-hint
 In my opinion, *Binary Search* is a possible solution when the questions contain the following information:
 1. The question asks us to find an result for a given condition
