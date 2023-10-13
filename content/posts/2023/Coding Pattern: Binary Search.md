@@ -55,7 +55,7 @@ class Solution:
 # Example Questions
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
-```ad-question
+
 Given a non-negative integer `x`, return _the square root of_ `x` _rounded down to the nearest integer_. The returned integer should be **non-negative** as well.
 
 You **must not use** any built-in exponent function or operator.
@@ -77,7 +77,7 @@ You **must not use** any built-in exponent function or operator.
 **Constraints:**
 
 - `0 <= x <= 231 - 1`
-```
+
 
 Solution:
 
@@ -170,7 +170,7 @@ class Solution:
 
 [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-```ad-question
+
 Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
 
 The overall run time complexity should be `O(log (m+n))`.
@@ -195,7 +195,7 @@ The overall run time complexity should be `O(log (m+n))`.
 - `0 <= n <= 1000`
 - `1 <= m + n <= 2000`
 - `-106 <= nums1[i], nums2[i] <= 106`
-```
+
 
 Solution:
 
@@ -246,12 +246,99 @@ class Solution:
 
 ```
 
+[1891. Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)
 
-# Takeaways
+You are given an integer array `ribbons`, where `ribbons[i]` represents the length of the `ith` ribbon, and an integer `k`. You may cut any of the ribbons into any number of segments of **positive integer** lengths, or perform no cuts at all.
+
+- For example, if you have a ribbon of length `4`, you can:
+    - Keep the ribbon of length `4`,
+    - Cut it into one ribbon of length `3` and one ribbon of length `1`,
+    - Cut it into two ribbons of length `2`,
+    - Cut it into one ribbon of length `2` and two ribbons of length `1`, or
+    - Cut it into four ribbons of length `1`.
+
+Your goal is to obtain `k` ribbons of all the **same positive integer length**. You are allowed to throw away any excess ribbon as a result of cutting.
+
+Return _the **maximum** possible positive integer length that you can obtain_ `k` _ribbons of__, or_ `0` _if you cannot obtain_ `k` _ribbons of the same length_.
+
+**Example 1:**
+
+**Input:** ribbons = [9,7,5], k = 3
+**Output:** 5
+**Explanation:**
+- Cut the first ribbon to two ribbons, one of length 5 and one of length 4.
+- Cut the second ribbon to two ribbons, one of length 5 and one of length 2.
+- Keep the third ribbon as it is.
+Now you have 3 ribbons of length 5.
+
+**Example 2:**
+
+**Input:** ribbons = [7,5,9], k = 4
+**Output:** 4
+**Explanation:**
+- Cut the first ribbon to two ribbons, one of length 4 and one of length 3.
+- Cut the second ribbon to two ribbons, one of length 4 and one of length 1.
+- Cut the third ribbon to three ribbons, two of length 4 and one of length 1.
+Now you have 4 ribbons of length 4.
+
+**Example 3:**
+
+**Input:** ribbons = [5,7,9], k = 22
+**Output:** 0
+**Explanation:** You cannot obtain k ribbons of the same positive integer length.
+
+**Constraints:**
+
+- `1 <= ribbons.length <= 105`
+- `1 <= ribbons[i] <= 105`
+- `1 <= k <= 109`
+
+Solution:
+
+This question asks if we could find a maximum possible length to cut the ribbons into `k` ribbons of the same size.
+
+Therefore, we know it is a search question between the minimal length, 1, and the maximal length, the longest ribbon given. 
+
+And we want to have the maximum possible length of each cut. Suppose we have length `A` which yields more than `k` ribbons, we should try a larger value and otherwise a lesser value.
+
+**The only difference with above questions is we have to go through the entire search space.** And we are trying to find the maximal value, in our pattern, we should return $tail$ (the right end of search space) in the end.
+
+```python
+class Solution:
+    def maxLength(self, ribbons: List[int], k: int) -> int:
+	    # set the two end of search space
+        head, tail = 1, max(ribbons)
+		# check how many ribbons can be made
+        def helper(cut):
+            count = 0
+            for ribbon in ribbons:
+                count += ribbon // cut
+            return count
+
+        while head <= tail:
+            mid = (head + tail) // 2
+            # if we get more than k rippons, we could try a larger value
+            if helper(mid) >= k:
+                head = mid + 1
+            else:
+                tail = mid - 1
+        # here we return tail instead of mid
+        # In one word, the search space will be between two values at the end 
+        # suppose head = 4 and tail = 5, so mid = 4 due to floor division, then we have two scenarios 4 is the answer and 4 is not the answer. But no matter what, we will make head = mid + 1 = 5 (since 4 will def generate k or more than k rippons, otherwise the head won't be 4 at the last round). 
+        # When head = 5, the mid = 5
+	        #if 5 is not the answer, tail will become mid - 1 = 4 and we finish search
+	        #if 5 is the answer, head = mid + 1 = 6 > tail = 5, we also finish search
+	    # thus we should return tail as the result   
+        return tail
+```
+
+### Takeaways
+
 ```ad-hint
 In my opinion, *Binary Search* is a possible solution when the questions contain the following information:
-1. The question asks us to find an result for a given condition
-2. The search space can be sorted based on the given condition
+1. The question asks us to find an result and this results are comparable with each other so we could shrink the search space
+2. The search space must be sorted
+3. We also need pay attention to the final result (tail or mid)
 
 In this case, as long as we can transform the question into the case above, we could use *Binary Search* to solve it.
 ```
