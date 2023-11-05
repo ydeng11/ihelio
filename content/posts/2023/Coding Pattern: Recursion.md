@@ -73,6 +73,7 @@ Option2a      ... and so on.
 ```
 
 If a solution isn’t possible, we backtrack to try the next possibility.
+
 **Common Problems**:
 
 - [Permutations](https://leetcode.com/problems/permutations/)
