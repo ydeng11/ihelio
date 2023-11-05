@@ -37,114 +37,114 @@ In this illustration, you started with a big problem (Big Block). You broke it d
 
 # Common places to use recursion
 
-1. **Bottom-Up Dynamic Programming**
+## Bottom-Up Dynamic Programming
 
-   **Explanation**: A method to solve complex problems by breaking them down into simpler subproblems. Unlike top-down, which starts with the main problem and divides it, bottom-up solves the smallest subproblems first and builds up to the main problem.
+**Explanation**: A method to solve complex problems by breaking them down into simpler subproblems. Unlike top-down, which starts with the main problem and divides it, bottom-up solves the smallest subproblems first and builds up to the main problem.
+
+**Figure**:
+
+```python
+Fib(5)
+  /   \
+Fib(4) Fib(3)
+      /     \
+   Fib(3)  Fib(2)  ... and so on.
+```
+
+Using bottom-up, we'd start with the smallest calculations (Fib(0), Fib(1)) and use their solutions to build up to Fib(5).
+
+**Common Problems**:
+  - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+  - [Coin Change](https://leetcode.com/problems/coin-change/)
+  - [House Robber](https://leetcode.com/problems/house-robber/)
+
+## Backtracking
+
+**Explanation**: A general algorithm for finding all (or some) solutions to computational problems by incrementally building candidates towards solutions and abandoning a candidate as soon as it is determined to be non-solution.
+
+**Figure**:
+
+```sql
+Start
+  |
+Option1 ---- Option2 ---- Option3 (Backtrack)
+  |   
+Option2a      ... and so on.
+```
+
+If a solution isn’t possible, we backtrack to try the next possibility.
+**Common Problems**:
+
+- [Permutations](https://leetcode.com/problems/permutations/)
+- [N-Queens](https://leetcode.com/problems/n-queens/)
+- [Combination Sum](https://leetcode.com/problems/combination-sum/)
+
+## Depth-First Search (DFS)
+
+   **Explanation**: An algorithm for traversing trees or graphs by exploring as far as possible along each branch before backtracking.
 
    **Figure**:
 
-   ```python
-   Fib(5)
-     /   \
-   Fib(4) Fib(3)
-         /     \
-      Fib(3)  Fib(2)  ... and so on.
+   ```mathmatica
+     A
+    / \
+   B   C
+   |   | \
+   D   E  F
+
    ```
 
-```
-  
-    Using bottom-up, we'd start with the smallest calculations (Fib(0), Fib(1)) and use their solutions to build up to Fib(5).
-  
-    **Common Problems**:
-    - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-    - [Coin Change](https://leetcode.com/problems/coin-change/)
-    - [House Robber](https://leetcode.com/problems/house-robber/)
-  
-1. **Backtracking**
-  
-    **Explanation**: A general algorithm for finding all (or some) solutions to computational problems by incrementally building candidates towards solutions and abandoning a candidate as soon as it is determined to be non-solution.
-  
-    **Figure**:
-  
-	```sql
-    Start
-	  |
-	Option1 ---- Option2 ---- Option3 (Backtrack)
-	  |       
-	Option2a      ... and so on.
-	```
-  
-    If a solution isn’t possible, we backtrack to try the next possibility.
-    **Common Problems**:
-  
-    - [Permutations](https://leetcode.com/problems/permutations/)
-    - [N-Queens](https://leetcode.com/problems/n-queens/)
-    - [Combination Sum](https://leetcode.com/problems/combination-sum/)
+   DFS traversal: A, B, D, C, E, F
 
-1. **Depth-First Search (DFS)**
-  
-    **Explanation**: An algorithm for traversing trees or graphs by exploring as far as possible along each branch before backtracking.
-  
-    **Figure**:
+   **Common Problems**:
 
-	```mathmatica
-	  A
-	 / \
-	B   C
-	|   | \
-	D   E  F
+   - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+   - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+   - [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
 
-	```
-  
-    DFS traversal: A, B, D, C, E, F
-  
-    **Common Problems**:
-    - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
-    - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-    - [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
-  
-4. **Divide and Conquer**
-  
-    **Explanation**: A method to break a problem into smaller subproblems that are similar to the original problem, solve these subproblems recursively, and then combine the solutions to get a solution to the original problem.
-  
-    **Figure**:
-  
-	```
-	  problem
-	 /   |    \
-	sub1 sub2  sub3
-	```
-  
-    Solve Sub1, Sub2, and Sub3, then combine them for the solution.
-  
-    **Common Problems**:
-  
-    - [Merge Sort](https://leetcode.com/problems/sort-an-array/)
-    - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-    - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
-  
-5. **Preorder, Inorder, and Postorder Tree Traversals**
-  
-    **Explanation**: Systematic ways to traverse all nodes in a tree. Preorder visits the current node before its children. Inorder visits the left child, then the current node, then the right child. Postorder visits the children before the current node (see [[Tree & Graph#Tree]]).
-  
-    **Figure**:
-    ```css
-      A
-	 / \
-	B   C
-	```
-  
-    Preorder: A, B, C
-  
-    Inorder: B, A, C
-  
-    Postorder: B, C, A
-  
-    **Common Problems**:
-  
-    - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-    - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-    - [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+## Divide and Conquer
+
+   **Explanation**: A method to break a problem into smaller subproblems that are similar to the original problem, solve these subproblems recursively, and then combine the solutions to get a solution to the original problem.
+
+   **Figure**:
+
+   ```
+     problem
+    /   |    \
+   sub1 sub2  sub3
+   ```
+
+   Solve Sub1, Sub2, and Sub3, then combine them for the solution.
+
+   **Common Problems**:
+
+   - [Merge Sort](https://leetcode.com/problems/sort-an-array/)
+   - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+   - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+
+## Preorder, Inorder, and Postorder Tree Traversals
+
+   **Explanation**: Systematic ways to traverse all nodes in a tree. Preorder visits the current node before its children. Inorder visits the left child, then the current node, then the right child. Postorder visits the children before the current node (see [[Tree & Graph#Tree]]).
+
+   **Figure**:
+
+   ```css
+     A
+    / \
+   B   C
+   ```
+
+   Preorder: A, B, C
+
+   Inorder: B, A, C
+
+   Postorder: B, C, A
+
+   **Common Problems**:
+
+   - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+   - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+   - [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 # Complexity analysis
 
@@ -155,4 +155,3 @@ Normally the time complexity is proportional to the entire search space. For ins
 ## Space complexity
 
 The major space complexity is from the recursion stack. Thus we need analyze the deepest depth the recursion could reach. If we are using DFS on a tree, we normally would return when DFS reaches the leaf node thus the recursion stack is the height of the tree at most.
-```
