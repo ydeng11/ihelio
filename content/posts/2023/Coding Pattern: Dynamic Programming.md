@@ -216,4 +216,4 @@ class Solution:
 
 ## Kadane's Algorithm
 
-See [My introduction to Kadane's Algorithm](https://ihelio.today/posts/2023/coding-pattern-kadane's-algo/)
+See [My introduction to Kadane's Algorithm](https://ihelio.today/posts/2023/coding-pattern-kadanes-algo/)
