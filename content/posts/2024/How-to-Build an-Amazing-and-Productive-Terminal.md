@@ -98,7 +98,9 @@ SDKMAN! is a tool for managing parallel versions of multiple Software Developmen
 
 To install SDKMAN!:
 
-`brew install sdkman`
+`curl -s "https://get.sdkman.io" | bash`
+
+`source "/opt/homebrew/opt/sdkman-cli/libexec/bin/sdkman-init.sh"`
 
 To install a specific version of Java using SDKMAN!:
 
