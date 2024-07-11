@@ -25,6 +25,29 @@ After researching, I chose the following tech stack:
 - **Backend**: Quarkus (a Java framework)
 
 I highly recommend checking out Robin Wieruch's [blog](https://www.robinwieruch.de/react-libraries/) for insights on various recommended technologies. I chose Quarkus for the backend because it simplifies creating Docker images for deployment and fits well with SPAs, which I will detail later.
+
+### Create the Project
+
+Follow the [guide](https://ui.shadcn.com/docs/installation/vite) at shadcn to create the project.
+
+You may see warning when importing sources using `@`. Add the below snippet to `compilerOptions` in the `tsconfig.app.json` as well.
+
+```json
+{
+  "compilerOptions": {
+    // ...
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+    // ...
+  }
+}
+
+```
+
 ### Navigating the Pits of Despair
 
 #### Proxy Shenanigans with React and TypeScript
