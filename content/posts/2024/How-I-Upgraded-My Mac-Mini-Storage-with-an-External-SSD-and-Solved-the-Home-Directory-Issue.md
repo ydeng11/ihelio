@@ -18,9 +18,9 @@ First things first, I tried clearing out my Documents and Downloads folders. But
 
 Here’s where you go to do it: `Users & Groups`.
 
-![image1](app://0e68ac1fe83e5c79e82d0b7f61f92bb563bb/Users/ihelio/Documents/Zettelkasten/Pasted%20image%2020240708204503.png?1720485903633)
+![](https://i.imgur.com/FfY2wa0.png)
 
-![image2](app://0e68ac1fe83e5c79e82d0b7f61f92bb563bb/Users/ihelio/Documents/Zettelkasten/Pasted%20image%2020240708204535.png?1720485935887)
+![](https://i.imgur.com/rbk9bC0.png)
 
 Easy peasy. Except, my Mac threw a tantrum and refused to restart, getting stuck on the loading screen. After some frantic Googling, I discovered this is a common issue when changing the home directory. Brilliant. I managed to log in via safe mode, and somehow the home directory was updated, but the regular mode was still broken.
 
