@@ -9,7 +9,7 @@
       <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Jul 2024 23:21:14 -0400</lastBuildDate>
     <atom:link href="ihelio.today/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,8 @@
       <link>ihelio.today/posts/2024/building-webapp-using-react-and-quarkus/</link>
       <pubDate>Fri, 05 Jul 2024 23:21:14 -0400</pubDate>
       <guid>ihelio.today/posts/2024/building-webapp-using-react-and-quarkus/</guid>
-      <description>My first website was an adventure straight out of 2014, built with Dreamweaver and some basic HTML and CSS. Picture a static site, lovingly crafted to display the research and papers from our lab. The end product was, well, let’s just say not exactly internet-breaking. But hey, it was my first foray into the wild world of web development!
-Fast forward 10 years, after diving deep into data science, machine learning, and platform engineering, I realized something horrifying: I was still a web development noob.</description>
+      <description>&lt;p&gt;My first website was an adventure straight out of 2014, built with Dreamweaver and some basic HTML and CSS. Picture a static site, lovingly crafted to display the research and papers from our lab. The end product was, well, let’s just say not exactly internet-breaking. But hey, it was my first foray into the wild world of web development!&lt;/p&gt;
+&lt;p&gt;Fast forward 10 years, after diving deep into data science, machine learning, and platform engineering, I realized something horrifying: I was still a web development noob. Cue the dramatic music. This simply would not do! So, armed with determination and copious amounts of coffee, I embarked on a quest to master web app development and fill in the gaping holes in my skill set.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

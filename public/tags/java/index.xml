@@ -9,7 +9,7 @@
       <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Dec 2024 23:21:14 -0400</lastBuildDate>
     <atom:link href="ihelio.today/tags/java/index.xml" rel="self" type="application/rss+xml" />
@@ -18,24 +18,28 @@
       <link>ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</link>
       <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
       <guid>ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</guid>
-      <description>Quarkus is an exciting framework for building modern Java applications, and Quinoa takes it up a notch by streamlining Single Page Application (SPA) development. Together, they enable a seamless workflow for both frontend and backend developers. This guide walks through setting up a Quarkus-based SPA using React as an example, although the process works just as well for other frameworks.
-Why Quinoa Matters Quinoa elegantly integrates frontend development into Quarkus projects.</description>
+      <description>&lt;p&gt;Quarkus is an exciting framework for building modern Java applications, and Quinoa takes it up a notch by streamlining Single Page Application (SPA) development. Together, they enable a seamless workflow for both frontend and backend developers. This guide walks through setting up a Quarkus-based SPA using React as an example, although the process works just as well for other frameworks.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-quinoa-matters&#34;&gt;Why Quinoa Matters&lt;/h2&gt;
+&lt;p&gt;Quinoa elegantly integrates frontend development into Quarkus projects. Here&amp;rsquo;s why you should care:&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to make a microservice with Quarkus</title>
       <link>ihelio.today/posts/2023/how-to-make-a-microservice-with-quarkus/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
       <guid>ihelio.today/posts/2023/how-to-make-a-microservice-with-quarkus/</guid>
-      <description>What is Quarkus Quarkus is a full-stack, Kubernetes-native Java framework that was developed by Red Hat. It first appeared in early 2019, aimed at optimizing Java specifically for containers and enabling it to become an effective platform in serverless environments.
-The motivation behind Quarkus was to breathe new life into the Java ecosystem for modern cloud-native applications. It seeks to overcome the traditional shortcomings of Java, like slow startup time and high memory consumption, which are particularly notable in containerized environments.</description>
+      <description>&lt;h2 id=&#34;what-is-quarkus&#34;&gt;What is Quarkus&lt;/h2&gt;
+&lt;p&gt;Quarkus is a full-stack, Kubernetes-native Java framework that was developed by Red Hat. It first appeared in early 2019, aimed at optimizing Java specifically for containers and enabling it to become an effective platform in serverless environments.&lt;/p&gt;
+&lt;p&gt;The motivation behind Quarkus was to breathe new life into the Java ecosystem for modern cloud-native applications. It seeks to overcome the traditional shortcomings of Java, like slow startup time and high memory consumption, which are particularly notable in containerized environments. Quarkus achieves this through ahead-of-time (AOT) compilation which drastically reduces the runtime memory overhead and speeds up the startup time, making Java a more competitive choice in the modern landscape of microservices and serverless architectures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sneak peek at the asynchronous Java</title>
       <link>ihelio.today/posts/2023/sneak-peek-at-the-asynchronous-java/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
       <guid>ihelio.today/posts/2023/sneak-peek-at-the-asynchronous-java/</guid>
-      <description>Java 19 is here with the preview of loom project. Loom project is the one helps Java become asynchronous and come back to the table to compete with other asynchronous language such as Golang. But why do we need Java to be asynchronous?
-Blocking It is all because we don&amp;rsquo;t want to be blocked. And the best example must be how you do your driver license renewal at the DMV. I remember I work up at 5:30 in the morning and drove to the DMV where there was already a line of 50 people.</description>
+      <description>&lt;p&gt;Java 19 is here with the preview of loom project. Loom project is the one helps Java become asynchronous and come back to the table to compete with other asynchronous language such as Golang. But why do we need Java to be asynchronous?&lt;/p&gt;
+&lt;h2 id=&#34;blocking&#34;&gt;Blocking&lt;/h2&gt;
+&lt;p&gt;It is all because we don&amp;rsquo;t want to be blocked. And the best example must be how you do your driver license renewal at the DMV. I remember I work up at 5:30 in the morning and drove to the DMV where there was already a line of 50 people. But I have no choice but to join them. After several hours&amp;rsquo; waiting, I can finally check in and get a number for my case. Then I was eligible to walk in and find a chair to continue my waiting. After another couple hours, I finally got called at a window and finished my license renewal task.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

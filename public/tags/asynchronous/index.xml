@@ -9,7 +9,7 @@
       <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
     <atom:link href="ihelio.today/tags/asynchronous/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,9 @@
       <link>ihelio.today/posts/2023/sneak-peek-at-the-asynchronous-java/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
       <guid>ihelio.today/posts/2023/sneak-peek-at-the-asynchronous-java/</guid>
-      <description>Java 19 is here with the preview of loom project. Loom project is the one helps Java become asynchronous and come back to the table to compete with other asynchronous language such as Golang. But why do we need Java to be asynchronous?
-Blocking It is all because we don&amp;rsquo;t want to be blocked. And the best example must be how you do your driver license renewal at the DMV. I remember I work up at 5:30 in the morning and drove to the DMV where there was already a line of 50 people.</description>
+      <description>&lt;p&gt;Java 19 is here with the preview of loom project. Loom project is the one helps Java become asynchronous and come back to the table to compete with other asynchronous language such as Golang. But why do we need Java to be asynchronous?&lt;/p&gt;
+&lt;h2 id=&#34;blocking&#34;&gt;Blocking&lt;/h2&gt;
+&lt;p&gt;It is all because we don&amp;rsquo;t want to be blocked. And the best example must be how you do your driver license renewal at the DMV. I remember I work up at 5:30 in the morning and drove to the DMV where there was already a line of 50 people. But I have no choice but to join them. After several hours&amp;rsquo; waiting, I can finally check in and get a number for my case. Then I was eligible to walk in and find a chair to continue my waiting. After another couple hours, I finally got called at a window and finished my license renewal task.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -9,7 +9,7 @@
       <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Jan 2025 22:42:13 -0500</lastBuildDate>
     <atom:link href="ihelio.today/categories/selfhosted/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <link>ihelio.today/posts/2025/remote_accessing_nas_using_tailscale/</link>
       <pubDate>Sat, 25 Jan 2025 22:42:13 -0500</pubDate>
       <guid>ihelio.today/posts/2025/remote_accessing_nas_using_tailscale/</guid>
-      <description>Remote Accessing NAS using Tailscale Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As a mesh network, Tailscale enhances connectivity when accessing NAS services remotely. Compared to traditional VPNs and firewalls, WireGuard and Zero Trust offer significantly better security since every device requires authentication to communicate with others. This granular access control minimizes risk—even if an attacker compromises one device, they won&amp;rsquo;t automatically gain access to the entire private network.</description>
+      <description>&lt;h1 id=&#34;remote-accessing-nas-using-tailscale&#34;&gt;Remote Accessing NAS using Tailscale&lt;/h1&gt;
+&lt;p&gt;Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As a mesh network, Tailscale enhances connectivity when accessing NAS services remotely. Compared to traditional VPNs and firewalls, WireGuard and Zero Trust offer significantly better security since every device requires authentication to communicate with others. This granular access control minimizes risk—even if an attacker compromises one device, they won&amp;rsquo;t automatically gain access to the entire private network. Unlike conventional firewalls, which often have a hardened exterior but a vulnerable core, Tailscale ensures both outer and inner security.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

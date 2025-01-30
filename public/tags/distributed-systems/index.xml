@@ -9,7 +9,7 @@
       <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
     <atom:link href="ihelio.today/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,10 @@
       <link>ihelio.today/posts/2023/flp-impossibility-in-plain-language/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
       <guid>ihelio.today/posts/2023/flp-impossibility-in-plain-language/</guid>
-      <description>Overview FLP impossibility is to prove there is no algorithm can really achieve totally correct consensus in asychronous system under assumption at most one process is faulty. The paper is very famous and also difficult to understand given the wording. This article is to explain FLP impossibility in a plain way.
-Aschronous System In FLP paper, there are some settings/assumptions made to describe an aschronous system which is used in the proof.</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;FLP impossibility is to prove there is no algorithm can really achieve totally correct consensus in asychronous system under assumption at most one process is faulty. The paper is very famous and also difficult to understand given the wording. This article is to explain FLP impossibility in a plain way.&lt;/p&gt;
+&lt;h2 id=&#34;aschronous-system&#34;&gt;Aschronous System&lt;/h2&gt;
+&lt;p&gt;In FLP paper, there are some settings/assumptions made to describe an aschronous system which is used in the proof. This system has:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

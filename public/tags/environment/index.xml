@@ -9,7 +9,7 @@
       <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
     <atom:link href="ihelio.today/tags/environment/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +18,9 @@
       <link>ihelio.today/posts/2023/why-i-dont-like-wsl/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
       <guid>ihelio.today/posts/2023/why-i-dont-like-wsl/</guid>
-      <description>If you are not using Java or Intellij Idea for your project, you could stop reading.
-Couple months ago, I am very excited with WSL2 and it works perfectly for me to work on some Java projects in Intellij Idea. Somehow everything is upside down and obviously after some updates of windows though I still stick with win10.
-Long story short! Intellij Idea is really slow with WSL regarding the version.</description>
+      <description>&lt;p&gt;&lt;strong&gt;If you are not using Java or Intellij Idea for your project, you could stop reading.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Couple months ago, I am very excited with WSL2 and it works perfectly for me to work on some Java projects in Intellij Idea. Somehow everything is upside down and obviously after some updates of windows though I still stick with win10.&lt;/p&gt;
+&lt;p&gt;Long story short! &lt;strong&gt;Intellij Idea is really slow with WSL regarding the version&lt;/strong&gt;. The indexing takes forever and it is not new as I found in this &lt;a href=&#34;https://youtrack.jetbrains.com/issue/WI-63786/Working-with-projects-on-WSL-is-extremely-slow-basically-not-possible-to-work-with&#34;&gt;thread&lt;/a&gt; and this &lt;a href=&#34;https://youtrack.jetbrains.com/issue/IDEA-274193/IntelliJ-extremely-slow-on-listing-directory-contents-of-WSL-filesystem&#34;&gt;thread&lt;/a&gt; and the problem could be one of the following:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
