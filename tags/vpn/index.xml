@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>VPN on iHelio</title>
+    <link>https://ydeng11.github.io/ihelio/tags/vpn/</link>
+    <description>Recent content in VPN on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2025 22:42:13 -0500</lastBuildDate>
+    <atom:link href="https://ydeng11.github.io/ihelio/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remote Accessing NAS using Tailscale</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2025/remote_accessing_nas_using_tailscale/</link>
+      <pubDate>Sat, 25 Jan 2025 22:42:13 -0500</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2025/remote_accessing_nas_using_tailscale/</guid>
+      <description>Remote Accessing NAS using Tailscale Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As a mesh network, Tailscale enhances connectivity when accessing NAS services remotely. Compared to traditional VPNs and firewalls, WireGuard and Zero Trust offer significantly better security since every device requires authentication to communicate with others. This granular access control minimizes risk—even if an attacker compromises one device, they won&amp;rsquo;t automatically gain access to the entire private network.</description>
+    </item>
+    <item>
+      <title>Build a home media server but automated</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2023/build-a-home-media-server/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2023/build-a-home-media-server/</guid>
+      <description>Intro In Route transmission to VPN container, I talked about how to download contents via VPN tunnel so we can get rid of some troubles. But that is far from enough for us to build a home media server which should work as Netflix and Hulu to us. We shouldn&amp;rsquo;t bother with the torrent and subtitle search. Once we add a show to our watch list, everything should be set up automatically.</description>
+    </item>
+    <item>
+      <title>How to route transmission to VPN container?</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2023/how-to-route-transmission-to-vpn-container/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2023/how-to-route-transmission-to-vpn-container/</guid>
+      <description>Intro When you have a NAS at home, it feel bad if you don&amp;rsquo;t keep it running for something even if you don&amp;rsquo;t use it. It is the major backup to store the photos we shoot with our iphones. However, it is just basic use and hosting a media center with it sounds more cool. I used to use transmission-openvpn and it works perfectly, however, my VPN expires and I decided to use proton free tier.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CLI Tools on iHelio</title>
+    <link>https://ydeng11.github.io/ihelio/tags/cli-tools/</link>
+    <description>Recent content in CLI Tools on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jul 2024 21:37:47 -0400</lastBuildDate>
+    <atom:link href="https://ydeng11.github.io/ihelio/tags/cli-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Build an Amazing and Productive Terminal</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2024/how-to-build-an-amazing-and-productive-terminal/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:47 -0400</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2024/how-to-build-an-amazing-and-productive-terminal/</guid>
+      <description>Everyone wants a cool terminal and WezTerm is the coolest one in my opinion. It is easy to manage and we can setup a new environment with minutes in association with GNS stow - a symlink manager.
+WezTerm is easy to configure since it is using lua and very friendly to read and learn. I am dumb at iTerm2 and Tmux, but it only took me 30 mins to start tweaking the config.</description>
+    </item>
+  </channel>
+</rss>

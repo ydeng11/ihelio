@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI/ML on iHelio</title>
+    <link>https://ydeng11.github.io/ihelio/categories/ai/ml/</link>
+    <description>Recent content in AI/ML on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
+    <atom:link href="https://ydeng11.github.io/ihelio/categories/ai/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neural Network in Numpy</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2023/neural-network-in-numpy/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2023/neural-network-in-numpy/</guid>
+      <description>This is to implement backpropagation algorithm in numpy which would help me to further understand how this works.
+import pandas as pd import numpy as np from pdb import set_trace from sklearn import datasets Design the network structure Each layer contains the weights/bias and activation union structures = [ {&amp;#34;input_dim&amp;#34;: 2, &amp;#34;output_dim&amp;#34;: 25, &amp;#34;activation&amp;#34;: &amp;#34;relu&amp;#34;}, {&amp;#34;input_dim&amp;#34;: 25, &amp;#34;output_dim&amp;#34;: 50, &amp;#34;activation&amp;#34;: &amp;#34;relu&amp;#34;}, {&amp;#34;input_dim&amp;#34;: 50, &amp;#34;output_dim&amp;#34;: 50, &amp;#34;activation&amp;#34;: &amp;#34;relu&amp;#34;}, {&amp;#34;input_dim&amp;#34;: 50, &amp;#34;output_dim&amp;#34;: 25, &amp;#34;activation&amp;#34;: &amp;#34;relu&amp;#34;}, {&amp;#34;input_dim&amp;#34;: 25, &amp;#34;output_dim&amp;#34;: 1, &amp;#34;activation&amp;#34;: &amp;#34;sigmoid&amp;#34;}, ] Initiate the parameters The weights can be random number and bias are preferred to be small postive values in order to pass the relu in the beginning.</description>
+    </item>
+  </channel>
+</rss>

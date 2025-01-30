@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tailscale on iHelio</title>
+    <link>https://ydeng11.github.io/ihelio/tags/tailscale/</link>
+    <description>Recent content in Tailscale on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2025 22:42:13 -0500</lastBuildDate>
+    <atom:link href="https://ydeng11.github.io/ihelio/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remote Accessing NAS using Tailscale</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2025/remote_accessing_nas_using_tailscale/</link>
+      <pubDate>Sat, 25 Jan 2025 22:42:13 -0500</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2025/remote_accessing_nas_using_tailscale/</guid>
+      <description>Remote Accessing NAS using Tailscale Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As a mesh network, Tailscale enhances connectivity when accessing NAS services remotely. Compared to traditional VPNs and firewalls, WireGuard and Zero Trust offer significantly better security since every device requires authentication to communicate with others. This granular access control minimizes risk—even if an attacker compromises one device, they won&amp;rsquo;t automatically gain access to the entire private network.</description>
+    </item>
+  </channel>
+</rss>
