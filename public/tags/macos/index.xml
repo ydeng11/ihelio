@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MacOS on iHelio</title>
-    <link>ihelio.today/tags/macos/</link>
+    <link>/tags/macos/</link>
     <description>Recent content in MacOS on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2024 21:37:51 -0400</lastBuildDate>
-    <atom:link href="ihelio.today/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Upgraded My Mac Mini Storage with an External SSD and Solved the Home Directory Issue</title>
-      <link>ihelio.today/posts/2024/how-i-upgraded-my-mac-mini-storage-with-an-external-ssd-and-solved-the-home-directory-issue/</link>
+      <link>/posts/2024/how-i-upgraded-my-mac-mini-storage-with-an-external-ssd-and-solved-the-home-directory-issue/</link>
       <pubDate>Tue, 09 Jul 2024 21:37:51 -0400</pubDate>
-      <guid>ihelio.today/posts/2024/how-i-upgraded-my-mac-mini-storage-with-an-external-ssd-and-solved-the-home-directory-issue/</guid>
+      <guid>/posts/2024/how-i-upgraded-my-mac-mini-storage-with-an-external-ssd-and-solved-the-home-directory-issue/</guid>
       <description>&lt;p&gt;A couple of months ago, I had the brilliant idea to upgrade my Mac mini M2 by installing MacOS on an external M.2 SSD. For under 200 bucks, I went from a measly 250GB to a whopping 2TB. I was on cloud nine, reveling in my newfound digital real estate, until the other weekend when the system decided to crash my party by refusing to download upgrades due to a lack of space. Wait, what?&lt;/p&gt;</description>
     </item>
   </channel>

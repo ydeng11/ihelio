@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Algorithm on iHelio</title>
-    <link>ihelio.today/tags/algorithm/</link>
+    <link>/tags/algorithm/</link>
     <description>Recent content in Algorithm on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Nov 2023 23:37:39 -0500</lastBuildDate>
-    <atom:link href="ihelio.today/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding Pattern: Kadane&#39;s Algo</title>
-      <link>ihelio.today/posts/2023/coding-pattern-kadanes-algo/</link>
+      <link>/posts/2023/coding-pattern-kadanes-algo/</link>
       <pubDate>Thu, 30 Nov 2023 23:37:39 -0500</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-kadanes-algo/</guid>
+      <guid>/posts/2023/coding-pattern-kadanes-algo/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Imagine you&amp;rsquo;re walking along a path that has treasure chests and traps.&lt;/strong&gt; Some chests have gold coins, and some traps take away coins. You want to find the part of the path where you can get the most coins.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The key idea&lt;/strong&gt;: It is a dynamic programming algorithm for finding the maximum contiguous sum subarray in a given array. It is a simple and efficient algorithm that works by maintaining two variables:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Coding Pattern: Dynamic Programming</title>
-      <link>ihelio.today/posts/2023/coding-pattern-dynamic-programming/</link>
+      <link>/posts/2023/coding-pattern-dynamic-programming/</link>
       <pubDate>Thu, 30 Nov 2023 16:28:21 -0400</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-dynamic-programming/</guid>
+      <guid>/posts/2023/coding-pattern-dynamic-programming/</guid>
       <description>&lt;h1 id=&#34;preface&#34;&gt;Preface&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Facing the Dynamic Programming Challenge&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Like many others, I initially found Dynamic Programming (DP) on LeetCode daunting and perplexing. However, this challenging journey led to profound insights. My initial misconception was that DP was all about complexity, but I learned it&amp;rsquo;s fundamentally about simplifying complex problems into manageable segments. Here&amp;rsquo;s my journey into understanding DP and why it&amp;rsquo;s a crucial tool in a programmer&amp;rsquo;s toolkit.&lt;/p&gt;
@@ -34,18 +34,18 @@
     </item>
     <item>
       <title>Coding Pattern: Recursion</title>
-      <link>ihelio.today/posts/2023/coding-pattern-recursion/</link>
+      <link>/posts/2023/coding-pattern-recursion/</link>
       <pubDate>Sun, 05 Nov 2023 16:41:32 -0500</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-recursion/</guid>
+      <guid>/posts/2023/coding-pattern-recursion/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;Recursion is a way of solving a problem by breaking it down into smaller problems of the same type. The smaller problems are then solved recursively, until a base case is reached. The base case is a simple problem that can be solved without recursion.&lt;/p&gt;
 &lt;p&gt;Imagine you have a big box of toy blocks, and each block represents a problem you need to solve. Some blocks are big (complex problems), and some are tiny (simple problems). To solve a big problem, you take apart the big block to find smaller blocks inside, and then, if needed, you take apart those smaller blocks to find even tinier blocks inside them, and so on, until you reach the tiniest blocks that you can easily understand and solve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Coding Pattern: Trie</title>
-      <link>ihelio.today/posts/2023/coding-pattern-trie/</link>
+      <link>/posts/2023/coding-pattern-trie/</link>
       <pubDate>Sun, 22 Oct 2023 21:41:02 -0400</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-trie/</guid>
+      <guid>/posts/2023/coding-pattern-trie/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;The union-find algorithm is a data structure and algorithm that maintains a collection of disjoint sets. A disjoint set is a set of elements that are not connected to each other. The union-find algorithm can be used to perform the following operations:&lt;/p&gt;
 &lt;ul&gt;
@@ -56,9 +56,9 @@
     </item>
     <item>
       <title>Coding Pattern: Two Pointers</title>
-      <link>ihelio.today/posts/2023/coding-pattern-two-pointers/</link>
+      <link>/posts/2023/coding-pattern-two-pointers/</link>
       <pubDate>Thu, 12 Oct 2023 00:44:00 -0400</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-two-pointers/</guid>
+      <guid>/posts/2023/coding-pattern-two-pointers/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;It is not easy to summarize the pattern of &lt;strong&gt;Two Pointers&lt;/strong&gt;, but most likely it is used for list and linked list and the required time complexity is &lt;code&gt;O(N)&lt;/code&gt; - the underlying pattern allows us to use &lt;strong&gt;Two Pointers&lt;/strong&gt; to go through the list once to get the results.&lt;/p&gt;
 &lt;p&gt;Common usage:&lt;/p&gt;
@@ -94,18 +94,18 @@ c. &lt;strong&gt;Fast and Slow Pointers&lt;/strong&gt; (often used in linked lis
     </item>
     <item>
       <title>Coding Pattern: Divide &amp; Conquer</title>
-      <link>ihelio.today/posts/2023/coding-pattern-divide--conquer/</link>
+      <link>/posts/2023/coding-pattern-divide--conquer/</link>
       <pubDate>Sun, 08 Oct 2023 22:46:03 -0400</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-divide--conquer/</guid>
+      <guid>/posts/2023/coding-pattern-divide--conquer/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The &lt;code&gt;Divide-n-Conquer&lt;/code&gt; strategy often employs recursion, as it relies on applying the same method to reduce the problem size by half and subsequently combining the outcomes for the ultimate solution.&lt;/p&gt;
 &lt;p&gt;I view &lt;code&gt;Divide-n-Conquer&lt;/code&gt; in a light similar to MapReduce, particularly when the task involves transformation. MapReduce breaks down a large problem into more manageable, independent sub-problems. Since each of these sub-problems operates autonomously, we can address them sequentially and still integrate their solutions. Key to this approach is ensuring the main problem can be independently segmented and the derived solutions can be seamlessly merged.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Coding Pattern: Binary Search</title>
-      <link>ihelio.today/posts/2023/coding-pattern-binary-search/</link>
+      <link>/posts/2023/coding-pattern-binary-search/</link>
       <pubDate>Sun, 08 Oct 2023 16:28:21 -0400</pubDate>
-      <guid>ihelio.today/posts/2023/coding-pattern-binary-search/</guid>
+      <guid>/posts/2023/coding-pattern-binary-search/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;In one word, binary search is to search for a target in a sorted array. The idea is to shrink the search space to empty.&lt;/p&gt;
 &lt;p&gt;It must be sorted because we can be sure how to shrink the search space and we normally reduce the search space by half so the time complexity is &lt;code&gt;O(logN)&lt;/code&gt; where &lt;code&gt;N&lt;/code&gt; is the size of entire search space.&lt;/p&gt;

@@ -1,7 +1,7 @@
-baseURL: "https://ydeng11.github.io/ihelio"
+baseURL: ""
 languageCode: en-us
 title: iHelio
-paginate: 10
+pagination.pagerSize: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,7 +13,7 @@ googleAnalytics: G-R4SSGN5Y2Z
 
 minify:
   disableXML: true
-  minifyOutput: true
+  minifyOutput: false
 
 outputs:
   home:
