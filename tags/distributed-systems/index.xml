@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Distributed Systems on iHelio</title>
+    <link>https://ydeng11.github.io/ihelio/tags/distributed-systems/</link>
+    <description>Recent content in Distributed Systems on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
+    <atom:link href="https://ydeng11.github.io/ihelio/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FLP impossibility in plain language</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2023/flp-impossibility-in-plain-language/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2023/flp-impossibility-in-plain-language/</guid>
+      <description>Overview FLP impossibility is to prove there is no algorithm can really achieve totally correct consensus in asychronous system under assumption at most one process is faulty. The paper is very famous and also difficult to understand given the wording. This article is to explain FLP impossibility in a plain way.
+Aschronous System In FLP paper, there are some settings/assumptions made to describe an aschronous system which is used in the proof.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Loom Project on iHelio</title>
+    <link>https://ydeng11.github.io/ihelio/tags/loom-project/</link>
+    <description>Recent content in Loom Project on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ydeng11.github.io/ihelio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
+    <atom:link href="https://ydeng11.github.io/ihelio/tags/loom-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sneak peek at the asynchronous Java</title>
+      <link>https://ydeng11.github.io/ihelio/posts/2023/sneak-peek-at-the-asynchronous-java/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>https://ydeng11.github.io/ihelio/posts/2023/sneak-peek-at-the-asynchronous-java/</guid>
+      <description>Java 19 is here with the preview of loom project. Loom project is the one helps Java become asynchronous and come back to the table to compete with other asynchronous language such as Golang. But why do we need Java to be asynchronous?
+Blocking It is all because we don&amp;rsquo;t want to be blocked. And the best example must be how you do your driver license renewal at the DMV. I remember I work up at 5:30 in the morning and drove to the DMV where there was already a line of 50 people.</description>
+    </item>
+  </channel>
+</rss>
