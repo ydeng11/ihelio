@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on iHelio</title>
+    <link>ihelio.today/tags/</link>
+    <description>Recent content in Tags on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2025 22:42:13 -0500</lastBuildDate>
+    <atom:link href="ihelio.today/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tailscale</title>
+      <link>ihelio.today/tags/tailscale/</link>
+      <pubDate>Sat, 25 Jan 2025 22:42:13 -0500</pubDate>
+      <guid>ihelio.today/tags/tailscale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPN</title>
+      <link>ihelio.today/tags/vpn/</link>
+      <pubDate>Sat, 25 Jan 2025 22:42:13 -0500</pubDate>
+      <guid>ihelio.today/tags/vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>ihelio.today/tags/docker/</link>
+      <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
+      <guid>ihelio.today/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NAS</title>
+      <link>ihelio.today/tags/nas/</link>
+      <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
+      <guid>ihelio.today/tags/nas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selfhosted</title>
+      <link>ihelio.today/tags/selfhosted/</link>
+      <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
+      <guid>ihelio.today/tags/selfhosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiki</title>
+      <link>ihelio.today/tags/wiki/</link>
+      <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
+      <guid>ihelio.today/tags/wiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IOS</title>
+      <link>ihelio.today/tags/ios/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JAVA</title>
+      <link>ihelio.today/tags/java/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quarkus</title>
+      <link>ihelio.today/tags/quarkus/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/quarkus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quinoa</title>
+      <link>ihelio.today/tags/quinoa/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/quinoa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>ihelio.today/tags/react/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sideload</title>
+      <link>ihelio.today/tags/sideload/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/sideload/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>External Drive</title>
+      <link>ihelio.today/tags/external-drive/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:51 -0400</pubDate>
+      <guid>ihelio.today/tags/external-drive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac Mini</title>
+      <link>ihelio.today/tags/mac-mini/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:51 -0400</pubDate>
+      <guid>ihelio.today/tags/mac-mini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>ihelio.today/tags/macos/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:51 -0400</pubDate>
+      <guid>ihelio.today/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLI Tools</title>
+      <link>ihelio.today/tags/cli-tools/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:47 -0400</pubDate>
+      <guid>ihelio.today/tags/cli-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevEnv</title>
+      <link>ihelio.today/tags/devenv/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:47 -0400</pubDate>
+      <guid>ihelio.today/tags/devenv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>ihelio.today/tags/terminal/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:47 -0400</pubDate>
+      <guid>ihelio.today/tags/terminal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WezTerm</title>
+      <link>ihelio.today/tags/wezterm/</link>
+      <pubDate>Tue, 09 Jul 2024 21:37:47 -0400</pubDate>
+      <guid>ihelio.today/tags/wezterm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebApp</title>
+      <link>ihelio.today/tags/webapp/</link>
+      <pubDate>Fri, 05 Jul 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/tags/webapp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithm</title>
+      <link>ihelio.today/tags/algorithm/</link>
+      <pubDate>Thu, 30 Nov 2023 23:37:39 -0500</pubDate>
+      <guid>ihelio.today/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LeetCode</title>
+      <link>ihelio.today/tags/leetcode/</link>
+      <pubDate>Thu, 30 Nov 2023 23:37:39 -0500</pubDate>
+      <guid>ihelio.today/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithms</title>
+      <link>ihelio.today/tags/algorithms/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asynchronous</title>
+      <link>ihelio.today/tags/asynchronous/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/asynchronous/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Car</title>
+      <link>ihelio.today/tags/car/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/car/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dealership</title>
+      <link>ihelio.today/tags/dealership/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/dealership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed System</title>
+      <link>ihelio.today/tags/distributed-system/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/distributed-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed Systems</title>
+      <link>ihelio.today/tags/distributed-systems/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>ihelio.today/tags/environment/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GRPC</title>
+      <link>ihelio.today/tags/grpc/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/grpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loom Project</title>
+      <link>ihelio.today/tags/loom-project/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/loom-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>ihelio.today/tags/microservices/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Negotiation</title>
+      <link>ihelio.today/tags/negotiation/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/negotiation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Network</title>
+      <link>ihelio.today/tags/neural-network/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/neural-network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Numpy</title>
+      <link>ihelio.today/tags/numpy/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/numpy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Torrenting</title>
+      <link>ihelio.today/tags/torrenting/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/torrenting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSL</title>
+      <link>ihelio.today/tags/wsl/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/tags/wsl/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quarkus on iHelio</title>
+    <link>ihelio.today/tags/quarkus/</link>
+    <description>Recent content in Quarkus on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2024 23:21:14 -0400</lastBuildDate>
+    <atom:link href="ihelio.today/tags/quarkus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Single Page Application (SPA) with Quarkus and Quinoa</title>
+      <link>ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</guid>
+      <description>Quarkus is an exciting framework for building modern Java applications, and Quinoa takes it up a notch by streamlining Single Page Application (SPA) development. Together, they enable a seamless workflow for both frontend and backend developers. This guide walks through setting up a Quarkus-based SPA using React as an example, although the process works just as well for other frameworks.
+Why Quinoa Matters Quinoa elegantly integrates frontend development into Quarkus projects.</description>
+    </item>
+    <item>
+      <title>Building a WebApp using React and Quarkus</title>
+      <link>ihelio.today/posts/2024/building-webapp-using-react-and-quarkus/</link>
+      <pubDate>Fri, 05 Jul 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/posts/2024/building-webapp-using-react-and-quarkus/</guid>
+      <description>My first website was an adventure straight out of 2014, built with Dreamweaver and some basic HTML and CSS. Picture a static site, lovingly crafted to display the research and papers from our lab. The end product was, well, let’s just say not exactly internet-breaking. But hey, it was my first foray into the wild world of web development!
+Fast forward 10 years, after diving deep into data science, machine learning, and platform engineering, I realized something horrifying: I was still a web development noob.</description>
+    </item>
+    <item>
+      <title>How to make a microservice with Quarkus</title>
+      <link>ihelio.today/posts/2023/how-to-make-a-microservice-with-quarkus/</link>
+      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
+      <guid>ihelio.today/posts/2023/how-to-make-a-microservice-with-quarkus/</guid>
+      <description>What is Quarkus Quarkus is a full-stack, Kubernetes-native Java framework that was developed by Red Hat. It first appeared in early 2019, aimed at optimizing Java specifically for containers and enabling it to become an effective platform in serverless environments.
+The motivation behind Quarkus was to breathe new life into the Java ecosystem for modern cloud-native applications. It seeks to overcome the traditional shortcomings of Java, like slow startup time and high memory consumption, which are particularly notable in containerized environments.</description>
+    </item>
+  </channel>
+</rss>

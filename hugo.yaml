@@ -17,9 +17,9 @@ minify:
 
 outputs:
   home:
-      - HTML
-      - RSS
-      - JSON # is necessary
+    - HTML
+    - RSS
+    - JSON # is necessary
 
 disqusShortname: ihelio-today
 
@@ -148,3 +148,7 @@ pygmentsUseClasses: true
 #     guessSyntax: true
 #     lineNos: true
 #     style: monokai
+module:
+  mounts:
+    - source: "/Users/ihelio/SynologyDrive/Documents/Wiki/Wiki/Blog/posts"
+      target: "content/posts"

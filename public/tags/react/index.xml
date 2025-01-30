@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on iHelio</title>
+    <link>ihelio.today/tags/react/</link>
+    <description>Recent content in React on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2024 23:21:14 -0400</lastBuildDate>
+    <atom:link href="ihelio.today/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Single Page Application (SPA) with Quarkus and Quinoa</title>
+      <link>ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</link>
+      <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</guid>
+      <description>Quarkus is an exciting framework for building modern Java applications, and Quinoa takes it up a notch by streamlining Single Page Application (SPA) development. Together, they enable a seamless workflow for both frontend and backend developers. This guide walks through setting up a Quarkus-based SPA using React as an example, although the process works just as well for other frameworks.
+Why Quinoa Matters Quinoa elegantly integrates frontend development into Quarkus projects.</description>
+    </item>
+    <item>
+      <title>Building a WebApp using React and Quarkus</title>
+      <link>ihelio.today/posts/2024/building-webapp-using-react-and-quarkus/</link>
+      <pubDate>Fri, 05 Jul 2024 23:21:14 -0400</pubDate>
+      <guid>ihelio.today/posts/2024/building-webapp-using-react-and-quarkus/</guid>
+      <description>My first website was an adventure straight out of 2014, built with Dreamweaver and some basic HTML and CSS. Picture a static site, lovingly crafted to display the research and papers from our lab. The end product was, well, let’s just say not exactly internet-breaking. But hey, it was my first foray into the wild world of web development!
+Fast forward 10 years, after diving deep into data science, machine learning, and platform engineering, I realized something horrifying: I was still a web development noob.</description>
+    </item>
+  </channel>
+</rss>
