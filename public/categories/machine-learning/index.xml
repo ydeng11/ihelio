@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on iHelio</title>
-    <link>//localhost:1313/categories/machine-learning/</link>
+    <link>/categories/machine-learning/</link>
     <description>Recent content in Machine Learning on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neural Network in Numpy</title>
-      <link>//localhost:1313/posts/2023/neural-network-in-numpy/</link>
+      <link>/posts/2023/neural-network-in-numpy/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>//localhost:1313/posts/2023/neural-network-in-numpy/</guid>
+      <guid>/posts/2023/neural-network-in-numpy/</guid>
       <description>&lt;p&gt;This is to implement backpropagation algorithm in numpy which would help me to further understand how this works.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
