@@ -2,238 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</loc>
+    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/selfhosted/</loc>
+    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025/remote_accessing_nas_using_tailscale/</loc>
     <lastmod>2025-01-25T22:42:13-05:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/posts/2025/remote_accessing_nas_using_tailscale/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/categories/selfhosted/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/tags/tailscale/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/tags/vpn/</loc>
-    <lastmod>2025-01-25T22:42:13-05:00</lastmod>
-  </url><url>
-    <loc>/tags/docker/</loc>
+    <loc>//localhost:1313/posts/2025/life-wiki-selfhosted-on-your-nas/</loc>
     <lastmod>2025-01-10T00:28:28-05:00</lastmod>
   </url><url>
-    <loc>/posts/2025/life-wiki-selfhosted-on-your-nas/</loc>
+    <loc>//localhost:1313/categories/programming/</loc>
     <lastmod>2025-01-10T00:28:28-05:00</lastmod>
   </url><url>
-    <loc>/tags/nas/</loc>
-    <lastmod>2025-01-10T00:28:28-05:00</lastmod>
-  </url><url>
-    <loc>/categories/programming/</loc>
-    <lastmod>2025-01-10T00:28:28-05:00</lastmod>
-  </url><url>
-    <loc>/tags/selfhosted/</loc>
-    <lastmod>2025-01-10T00:28:28-05:00</lastmod>
-  </url><url>
-    <loc>/tags/wiki/</loc>
-    <lastmod>2025-01-10T00:28:28-05:00</lastmod>
-  </url><url>
-    <loc>/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</loc>
+    <loc>//localhost:1313/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</loc>
     <lastmod>2024-12-21T23:21:14-04:00</lastmod>
   </url><url>
-    <loc>/posts/2024/how-to-sideload-and-unlock-premium-apps-for-free/</loc>
+    <loc>//localhost:1313/posts/2024/how-to-sideload-and-unlock-premium-apps-for-free/</loc>
     <lastmod>2024-12-21T23:21:14-04:00</lastmod>
   </url><url>
-    <loc>/tags/ios/</loc>
+    <loc>//localhost:1313/categories/life/</loc>
     <lastmod>2024-12-21T23:21:14-04:00</lastmod>
   </url><url>
-    <loc>/tags/java/</loc>
-    <lastmod>2024-12-21T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/categories/life/</loc>
-    <lastmod>2024-12-21T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/quarkus/</loc>
-    <lastmod>2024-12-21T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/quinoa/</loc>
-    <lastmod>2024-12-21T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/react/</loc>
-    <lastmod>2024-12-21T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/sideload/</loc>
-    <lastmod>2024-12-21T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/external-drive/</loc>
+    <loc>//localhost:1313/posts/2024/how-i-upgraded-my-mac-mini-storage-with-an-external-ssd-and-solved-the-home-directory-issue/</loc>
     <lastmod>2024-07-09T21:37:51-04:00</lastmod>
   </url><url>
-    <loc>/posts/2024/how-i-upgraded-my-mac-mini-storage-with-an-external-ssd-and-solved-the-home-directory-issue/</loc>
+    <loc>//localhost:1313/categories/system/</loc>
     <lastmod>2024-07-09T21:37:51-04:00</lastmod>
   </url><url>
-    <loc>/tags/mac-mini/</loc>
-    <lastmod>2024-07-09T21:37:51-04:00</lastmod>
-  </url><url>
-    <loc>/tags/macos/</loc>
-    <lastmod>2024-07-09T21:37:51-04:00</lastmod>
-  </url><url>
-    <loc>/categories/system/</loc>
-    <lastmod>2024-07-09T21:37:51-04:00</lastmod>
-  </url><url>
-    <loc>/tags/cli-tools/</loc>
+    <loc>//localhost:1313/posts/2024/how-to-build-an-amazing-and-productive-terminal/</loc>
     <lastmod>2024-07-09T21:37:47-04:00</lastmod>
   </url><url>
-    <loc>/tags/devenv/</loc>
-    <lastmod>2024-07-09T21:37:47-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2024/how-to-build-an-amazing-and-productive-terminal/</loc>
-    <lastmod>2024-07-09T21:37:47-04:00</lastmod>
-  </url><url>
-    <loc>/tags/terminal/</loc>
-    <lastmod>2024-07-09T21:37:47-04:00</lastmod>
-  </url><url>
-    <loc>/tags/wezterm/</loc>
-    <lastmod>2024-07-09T21:37:47-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2024/building-webapp-using-react-and-quarkus/</loc>
+    <loc>//localhost:1313/posts/2024/building-webapp-using-react-and-quarkus/</loc>
     <lastmod>2024-07-05T23:21:14-04:00</lastmod>
   </url><url>
-    <loc>/tags/webapp/</loc>
-    <lastmod>2024-07-05T23:21:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/algorithm/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-kadanes-algo/</loc>
     <lastmod>2023-11-30T23:37:39-05:00</lastmod>
   </url><url>
-    <loc>/posts/2023/coding-pattern-kadanes-algo/</loc>
-    <lastmod>2023-11-30T23:37:39-05:00</lastmod>
-  </url><url>
-    <loc>/tags/leetcode/</loc>
-    <lastmod>2023-11-30T23:37:39-05:00</lastmod>
-  </url><url>
-    <loc>/posts/2023/coding-pattern-dynamic-programming/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-dynamic-programming/</loc>
     <lastmod>2023-11-30T16:28:21-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/coding-pattern-recursion/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-recursion/</loc>
     <lastmod>2023-11-05T16:41:32-05:00</lastmod>
   </url><url>
-    <loc>/posts/2023/coding-pattern-trie/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-trie/</loc>
     <lastmod>2023-10-22T21:41:02-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/coding-pattern-two-pointers/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-two-pointers/</loc>
     <lastmod>2023-10-12T00:44:00-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/coding-pattern-divide--conquer/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-divide--conquer/</loc>
     <lastmod>2023-10-08T22:46:03-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/coding-pattern-binary-search/</loc>
+    <loc>//localhost:1313/posts/2023/coding-pattern-binary-search/</loc>
     <lastmod>2023-10-08T16:28:21-04:00</lastmod>
   </url><url>
-    <loc>/categories/ai/ml/</loc>
+    <loc>//localhost:1313/posts/2023/build-a-home-media-server/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/algorithms/</loc>
+    <loc>//localhost:1313/categories/distributed-system/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/asynchronous/</loc>
+    <loc>//localhost:1313/posts/2023/expose-nas-services-with-att-gateway/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/build-a-home-media-server/</loc>
+    <loc>//localhost:1313/posts/2023/flp-impossibility-in-plain-language/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/car/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---1/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/dealership/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---2/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/distributed-system/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---3/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/distributed-systems/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---4/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/environment/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---5/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/expose-nas-services-with-att-gateway/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---6/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/flp-impossibility-in-plain-language/</loc>
+    <loc>//localhost:1313/posts/2023/grpc-tutorial---7/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/tags/grpc/</loc>
+    <loc>//localhost:1313/posts/2023/how-to-make-a-microservice-with-quarkus/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---1/</loc>
+    <loc>//localhost:1313/posts/2023/how-to-route-transmission-to-vpn-container/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---2/</loc>
+    <loc>//localhost:1313/categories/java/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---3/</loc>
+    <loc>//localhost:1313/categories/machine-learning/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---4/</loc>
+    <loc>//localhost:1313/posts/2023/mastering-the-art-of-car-dealership-negotiations/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---5/</loc>
+    <loc>//localhost:1313/posts/2023/neural-network-in-numpy/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---6/</loc>
+    <loc>//localhost:1313/posts/2023/sneak-peek-at-the-asynchronous-java/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/grpc-tutorial---7/</loc>
+    <loc>//localhost:1313/categories/software/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/categories/home-server/</loc>
+    <loc>//localhost:1313/posts/2023/the-elegant-consensus-algorithm---multi-paxos---in-java-grpc/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/how-to-make-a-microservice-with-quarkus/</loc>
+    <loc>//localhost:1313/posts/2023/why-i-dont-like-wsl/</loc>
     <lastmod>2023-09-16T16:17:15-04:00</lastmod>
   </url><url>
-    <loc>/posts/2023/how-to-route-transmission-to-vpn-container/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/loom-project/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2023/mastering-the-art-of-car-dealership-negotiations/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/microservices/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/negotiation/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/neural-network/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2023/neural-network-in-numpy/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/numpy/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2023/sneak-peek-at-the-asynchronous-java/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2023/the-elegant-consensus-algorithm---multi-paxos---in-java-grpc/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/torrenting/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/posts/2023/why-i-dont-like-wsl/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/wsl/</loc>
-    <lastmod>2023-09-16T16:17:15-04:00</lastmod>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
