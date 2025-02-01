@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Running Hugo build..."
+hugo
+
+if [ $? -eq 0 ]; then
+    echo "Hugo build successful, adding public and resources directories..."
+    git add public/ resources/
+    
+    # Check if there are changes to commit in these directories
+    if git diff --cached --quiet public/ resources/; then
+        echo "No changes in public/ or resources/"
+    else
+        echo "Changes in public/ and/or resources/ have been staged"
+    fi
+    
+    exit 0
+else
+    echo "Hugo build failed! Aborting commit."
+    exit 1
+fi
