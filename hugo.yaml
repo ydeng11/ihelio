@@ -20,14 +20,34 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+  section:
+    - HTML
+    - RSS
 
 disqusShortname: ihelio-today
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: iHelio
-  description: "ExampleSite description"
-  keywords: [iHelio, Blog, Life, Database, Programming, Database, Pet, Cat]
+  description: "Explore in-depth articles on distributed systems, database engineering, and software development. Featuring practical tutorials, technical deep-dives, and real-world experiences in building scalable applications. Join me in discussing technology, programming best practices, and system architecture."
+  keywords:
+    [
+      iHelio,
+      Blog,
+      Life,
+      Database,
+      Programming,
+      Database,
+      Pet,
+      Cat,
+      Selfhosted,
+      Software,
+      Distributed System,
+      System Design,
+      Software Architecture,
+      Technical Blog,
+      Engineering Blog,
+    ]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -101,10 +121,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/ydeng11/ihelio/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/ydeng11/ihelio/tree/main/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -150,5 +170,5 @@ pygmentsUseClasses: true
 #     style: monokai
 module:
   mounts:
-    - source: "/Users/ihelio/SynologyDrive/Documents/Wiki/Wiki/Blog/posts"
-      target: "content/posts"
+    - source: "/Users/ihelio/SynologyDrive/Documents/Wiki/Wiki/Blog"
+      target: "content"
