@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2025-02-01T00:44:44+03:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-02-01T00:44:44+03:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2025-01-27T22:04:03-04:00</lastmod>
   </url><url>
     <loc>/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</loc>
-    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-01-27T22:04:03-04:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2025-01-27T22:04:03-04:00</lastmod>
   </url><url>
     <loc>/categories/selfhosted/</loc>
