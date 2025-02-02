@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Self-Improvement on iHelio</title>
+    <link>/categories/self-improvement/</link>
+    <description>Recent content in Self-Improvement on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2025 00:44:44 +0300</lastBuildDate>
+    <atom:link href="/categories/self-improvement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting Blog powered by Obsidian and Hugo</title>
+      <link>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</link>
+      <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
+      <guid>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</guid>
+      <description>&lt;p&gt;Since I started using Obsidian as my knowledge management and writing tool, it is a pain for me to manage my posts for my blog. I firstly completed it in Obsidian and copied it over to the repo of my blog. If I make changes, I need to update it twice which is very tedious and error prone. So I started to find a solution so that I could write and store my posts at one place and continue to use hugo to build my site.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

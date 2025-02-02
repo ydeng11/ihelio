@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 22:04:03 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 00:44:44 +0300</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting Blog powered by Obsidian and Hugo</title>
+      <link>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</link>
+      <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
+      <guid>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</guid>
+      <description>&lt;p&gt;Since I started using Obsidian as my knowledge management and writing tool, it is a pain for me to manage my posts for my blog. I firstly completed it in Obsidian and copied it over to the repo of my blog. If I make changes, I need to update it twice which is very tedious and error prone. So I started to find a solution so that I could write and store my posts at one place and continue to use hugo to build my site.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Expose Containerized Services With SSL via Tailscale</title>
       <link>/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</link>
