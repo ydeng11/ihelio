@@ -11,6 +11,8 @@ buildExpired: false
 
 googleAnalytics: G-R4SSGN5Y2Z
 
+ignoreLogs: ["warning-goldmark-raw-html"]
+
 minify:
   disableXML: true
   minifyOutput: false
