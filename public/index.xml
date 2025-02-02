@@ -18,7 +18,7 @@
       <link>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</link>
       <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
       <guid>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</guid>
-      <description>&lt;p&gt;Since I started using Obsidian as my knowledge management and writing tool, it is a pain for me to manage my posts for my blog. I firstly completed it in Obsidian and copied it over to the repo of my blog. If I make changes, I need to update it twice which is very tedious and error prone. So I started to find a solution so that I could write and store my posts at one place and continue to use hugo to build my site.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Since I started using Obsidian as my knowledge management and writing tool, it is a pain for me to manage my posts for my blog. I used to write it in the Obsidian and copied it over to the repo of my blog. If I make changes, I need to update it twice which is very tedious and error-prone. So I started to find a solution allowing me to write and store my posts at one place and continue to use Hugo to build my blog.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Expose Containerized Services With SSL via Tailscale</title>
