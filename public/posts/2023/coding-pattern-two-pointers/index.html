@@ -309,7 +309,7 @@ c. <strong>Fast and Slow Pointers</strong> (often used in linked lists): - One p
 </li>
 </ol>
 <h3 id="example-questions">Example Questions<a hidden class="anchor" aria-hidden="true" href="#example-questions">#</a></h3>
-<h4 id="88-merge-sorted-arrayhttpsleetcodecomproblemsmerge-sorted-array"><a href="https://leetcode.com/problems/merge-sorted-array/">88. Merge Sorted Array</a><a hidden class="anchor" aria-hidden="true" href="#88-merge-sorted-arrayhttpsleetcodecomproblemsmerge-sorted-array">#</a></h4>
+<h4 id="88-merge-sorted-array"><a href="https://leetcode.com/problems/merge-sorted-array/">88. Merge Sorted Array</a><a hidden class="anchor" aria-hidden="true" href="#88-merge-sorted-array">#</a></h4>
 <p>You are given two integer arrays <code>nums1</code> and <code>nums2</code>, sorted in <strong>non-decreasing order</strong>, and two integers <code>m</code> and <code>n</code>, representing the number of elements in <code>nums1</code> and <code>nums2</code> respectively.</p>
 <p><strong>Merge</strong> <code>nums1</code> and <code>nums2</code> into a single array sorted in <strong>non-decreasing order</strong>.</p>
 <p>The final sorted array should not be returned by the function, but instead be <em>stored inside the array</em> <code>nums1</code>. To accommodate this, <code>nums1</code> has a length of <code>m + n</code>, where the first <code>m</code> elements denote the elements that should be merged, and the last <code>n</code> elements are set to <code>0</code> and should be ignored. <code>nums2</code> has a length of <code>n</code>.</p>
@@ -366,7 +366,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 </span></span><span class="line"><span class="cl">                <span class="n">nums1</span><span class="p">[</span><span class="n">p3</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums2</span><span class="p">[</span><span class="n">p2</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">                <span class="n">p2</span> <span class="o">+=</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl">            <span class="n">p3</span> <span class="o">+=</span> <span class="mi">1</span>
-</span></span></code></pre></div><h4 id="11-container-with-most-waterhttpsleetcodecomproblemscontainer-with-most-water"><a href="https://leetcode.com/problems/container-with-most-water/">11. Container With Most Water</a><a hidden class="anchor" aria-hidden="true" href="#11-container-with-most-waterhttpsleetcodecomproblemscontainer-with-most-water">#</a></h4>
+</span></span></code></pre></div><h4 id="11-container-with-most-water"><a href="https://leetcode.com/problems/container-with-most-water/">11. Container With Most Water</a><a hidden class="anchor" aria-hidden="true" href="#11-container-with-most-water">#</a></h4>
 <p>You are given an integer array <code>height</code> of length <code>n</code>. There are <code>n</code> vertical lines drawn such that the two endpoints of the <code>ith</code> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.</p>
 <p>Find two lines that together with the x-axis form a container, such that the container contains the most water.</p>
 <p>Return <em>the maximum amount of water a container can store</em>.</p>
@@ -405,7 +405,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 </span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">                <span class="n">head</span> <span class="o">+=</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">res</span>
-</span></span></code></pre></div><h4 id="42-trapping-rain-waterhttpsleetcodecomproblemstrapping-rain-water"><a href="https://leetcode.com/problems/trapping-rain-water/">42. Trapping Rain Water</a><a hidden class="anchor" aria-hidden="true" href="#42-trapping-rain-waterhttpsleetcodecomproblemstrapping-rain-water">#</a></h4>
+</span></span></code></pre></div><h4 id="42-trapping-rain-water"><a href="https://leetcode.com/problems/trapping-rain-water/">42. Trapping Rain Water</a><a hidden class="anchor" aria-hidden="true" href="#42-trapping-rain-water">#</a></h4>
 <p>Given <code>n</code> non-negative integers representing an elevation map where the width of each bar is <code>1</code>, compute how much water it can trap after raining.</p>
 <p><strong>Example 1:</strong></p>
 <p><img loading="lazy" src="https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png"></p>
@@ -445,7 +445,7 @@ The reason we need only one pass because the $left_{max}$ and $right_{max}$ will
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">out</span>
 </span></span></code></pre></div><h4 id="linkedlist">LinkedList<a hidden class="anchor" aria-hidden="true" href="#linkedlist">#</a></h4>
 <p>As one kind of list, <strong>Two Pointers</strong> could also be used for linked list, though sometimes we call it <strong>Two Runners</strong>. The idea is to have a slow and a fast runner. Normally when fast runner finishes, the slow runner is at the middle of the linked list which is useful.</p>
-<h5 id="876-middle-of-the-linked-listhttpsleetcodecomproblemsmiddle-of-the-linked-list"><a href="https://leetcode.com/problems/middle-of-the-linked-list/">876. Middle of the Linked List</a><a hidden class="anchor" aria-hidden="true" href="#876-middle-of-the-linked-listhttpsleetcodecomproblemsmiddle-of-the-linked-list">#</a></h5>
+<h5 id="876-middle-of-the-linked-list"><a href="https://leetcode.com/problems/middle-of-the-linked-list/">876. Middle of the Linked List</a><a hidden class="anchor" aria-hidden="true" href="#876-middle-of-the-linked-list">#</a></h5>
 <p>Given the <code>head</code> of a singly linked list, return <em>the middle node of the linked list</em>.</p>
 <p>If there are two middle nodes, return <strong>the second middle</strong> node.</p>
 <p><strong>Example 1:</strong></p>

@@ -225,7 +225,7 @@ I view Divide-n-Conquer in a light similar to MapReduce, particularly when the t
 <p>I view <code>Divide-n-Conquer</code> in a light similar to MapReduce, particularly when the task involves transformation. MapReduce breaks down a large problem into more manageable, independent sub-problems. Since each of these sub-problems operates autonomously, we can address them sequentially and still integrate their solutions. Key to this approach is ensuring the main problem can be independently segmented and the derived solutions can be seamlessly merged.</p>
 <p>The typical blueprint for <code>Divide-n-Conquer</code> involves a recursive function. This function produces a result when the size becomes null and provides mechanisms to split the problem and amalgamate the solutions. Consequently, time complexity predominantly depends on this recursive function.</p>
 <h3 id="example-questions">Example Questions<a hidden class="anchor" aria-hidden="true" href="#example-questions">#</a></h3>
-<h4 id="108-convert-sorted-array-to-binary-search-treehttpsleetcodecomproblemsconvert-sorted-array-to-binary-search-tree"><a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">108. Convert Sorted Array to Binary Search Tree</a><a hidden class="anchor" aria-hidden="true" href="#108-convert-sorted-array-to-binary-search-treehttpsleetcodecomproblemsconvert-sorted-array-to-binary-search-tree">#</a></h4>
+<h4 id="108-convert-sorted-array-to-binary-search-tree"><a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/">108. Convert Sorted Array to Binary Search Tree</a><a hidden class="anchor" aria-hidden="true" href="#108-convert-sorted-array-to-binary-search-tree">#</a></h4>
 <pre tabindex="0"><code class="language-ad-question" data-lang="ad-question">Given an integer array `nums` where the elements are sorted in **ascending order**, convert _it to a_ 
 
 **_height-balanced_**
@@ -284,7 +284,7 @@ I view Divide-n-Conquer in a light similar to MapReduce, particularly when the t
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">helper</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
 </span></span></code></pre></div><p>Time Complexity: <code>O(N)</code> even it is recursion, we are visiting each element exactly once
 Space Complexity: <code>O(logN)</code> it is the height of the BST tree we are creating</p>
-<h4 id="215-kth-largest-element-in-an-arrayhttpsleetcodecomproblemskth-largest-element-in-an-array"><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/">215. Kth Largest Element in an Array</a><a hidden class="anchor" aria-hidden="true" href="#215-kth-largest-element-in-an-arrayhttpsleetcodecomproblemskth-largest-element-in-an-array">#</a></h4>
+<h4 id="215-kth-largest-element-in-an-array"><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/">215. Kth Largest Element in an Array</a><a hidden class="anchor" aria-hidden="true" href="#215-kth-largest-element-in-an-array">#</a></h4>
 <pre tabindex="0"><code class="language-ad-question" data-lang="ad-question">Given an integer array `nums` and an integer `k`, return _the_ `kth` _largest element in the array_.
 
 Note that it is the `kth` largest element in the sorted order, not the `kth` distinct element.
@@ -340,7 +340,7 @@ Can you solve it without sorting?
 </span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">pivot</span>
 </span></span><span class="line"><span class="cl">        
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">quick_select</span><span class="p">(</span><span class="n">nums</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="23-merge-k-sorted-listshttpsleetcodecomproblemsmerge-k-sorted-lists"><a href="https://leetcode.com/problems/merge-k-sorted-lists/">23. Merge k Sorted Lists</a><a hidden class="anchor" aria-hidden="true" href="#23-merge-k-sorted-listshttpsleetcodecomproblemsmerge-k-sorted-lists">#</a></h4>
+</span></span></code></pre></div><h4 id="23-merge-k-sorted-lists"><a href="https://leetcode.com/problems/merge-k-sorted-lists/">23. Merge k Sorted Lists</a><a hidden class="anchor" aria-hidden="true" href="#23-merge-k-sorted-lists">#</a></h4>
 <pre tabindex="0"><code class="language-ad-question" data-lang="ad-question">You are given an array of `k` linked-lists `lists`, each linked-list is sorted in ascending order.
 
 _Merge all the linked-lists into one sorted linked-list and return it._

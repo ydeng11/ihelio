@@ -220,7 +220,7 @@ Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed
   <div class="post-content"><h1 id="remote-accessing-nas-using-tailscale">Remote Accessing NAS using Tailscale<a hidden class="anchor" aria-hidden="true" href="#remote-accessing-nas-using-tailscale">#</a></h1>
 <p>Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As a mesh network, Tailscale enhances connectivity when accessing NAS services remotely. Compared to traditional VPNs and firewalls, WireGuard and Zero Trust offer significantly better security since every device requires authentication to communicate with others. This granular access control minimizes risk—even if an attacker compromises one device, they won&rsquo;t automatically gain access to the entire private network. Unlike conventional firewalls, which often have a hardened exterior but a vulnerable core, Tailscale ensures both outer and inner security.</p>
 <h3 id="methods-to-access-nas-using-tailscale">Methods to Access NAS Using Tailscale<a hidden class="anchor" aria-hidden="true" href="#methods-to-access-nas-using-tailscale">#</a></h3>
-<h4 id="1-install-tailscale-directly-on-the-nashttpstailscalecomkb1307nas">1. <a href="https://tailscale.com/kb/1307/nas">Install Tailscale Directly on the NAS</a><a hidden class="anchor" aria-hidden="true" href="#1-install-tailscale-directly-on-the-nashttpstailscalecomkb1307nas">#</a></h4>
+<h4 id="1-install-tailscale-directly-on-the-nas">1. <a href="https://tailscale.com/kb/1307/nas">Install Tailscale Directly on the NAS</a><a hidden class="anchor" aria-hidden="true" href="#1-install-tailscale-directly-on-the-nas">#</a></h4>
 <ul>
 <li>
 <p>This method turns the NAS into a node on the tailnet (your private network), making it discoverable by all other nodes.</p>
@@ -240,7 +240,7 @@ Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed
 <ul>
 <li>
 <p>Exposing all services makes me itchy but I don&rsquo;t think it is a con as we can have ACL to limit the access for users.</p>
-<h4 id="2-configure-a-subnet-routerhttpstailscalecomkb1019subnets">2. <a href="https://tailscale.com/kb/1019/subnets">Configure a Subnet Router</a><a hidden class="anchor" aria-hidden="true" href="#2-configure-a-subnet-routerhttpstailscalecomkb1019subnets">#</a></h4>
+<h4 id="2-configure-a-subnet-router">2. <a href="https://tailscale.com/kb/1019/subnets">Configure a Subnet Router</a><a hidden class="anchor" aria-hidden="true" href="#2-configure-a-subnet-router">#</a></h4>
 </li>
 </ul>
 </li>
@@ -265,7 +265,7 @@ Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed
 <ul>
 <li>
 <p>Exposes the entire LAN, which could require additional security measures such as reverse proxying - I didn&rsquo;t try if we can put ACL on the particular device in the subnet.</p>
-<h4 id="3-use-tailscale-as-a-sidecar-for-docker-containershttpstailscalecomkb1282docker">3. <a href="https://tailscale.com/kb/1282/docker">Use Tailscale as a Sidecar for Docker Containers</a><a hidden class="anchor" aria-hidden="true" href="#3-use-tailscale-as-a-sidecar-for-docker-containershttpstailscalecomkb1282docker">#</a></h4>
+<h4 id="3-use-tailscale-as-a-sidecar-for-docker-containers">3. <a href="https://tailscale.com/kb/1282/docker">Use Tailscale as a Sidecar for Docker Containers</a><a hidden class="anchor" aria-hidden="true" href="#3-use-tailscale-as-a-sidecar-for-docker-containers">#</a></h4>
 </li>
 </ul>
 </li>
