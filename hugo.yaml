@@ -172,5 +172,5 @@ pygmentsUseClasses: true
 #     style: monokai
 module:
   mounts:
-    - source: "/Users/ihelio/SynologyDrive/Documents/Wiki/Wiki/Blog"
+    - source: "/Users/ihelio/SynologyDrive/SynologyDrive/Documents/Wiki/Wiki/Blog"
       target: "content"
