@@ -9,10 +9,20 @@
       <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.144.2</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:44:44 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 21:47:17 +0300</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving Mac Mini Random Restarts</title>
+      <link>/posts/2025/solving-mac-mini-random-restarts/</link>
+      <pubDate>Sat, 07 Jun 2025 21:47:17 +0300</pubDate>
+      <guid>/posts/2025/solving-mac-mini-random-restarts/</guid>
+      <description>&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Six months ago, my Mac Mini began experiencing silent restarts after entering sleep mode. Initially, these incidents were sporadic and difficult to diagnose, but they gradually became more frequent, eventually occurring during active use. The random nature of these restarts made troubleshooting particularly challenging.&lt;/p&gt;
+&lt;h2 id=&#34;initial-troubleshooting-steps&#34;&gt;Initial Troubleshooting Steps&lt;/h2&gt;
+&lt;p&gt;Following standard troubleshooting practices, I began with the most common solutions: rebooting and reinstalling macOS. Unfortunately, these approaches proved ineffective. The system continued to restart unexpectedly despite a clean OS installation.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hosting Blog powered by Obsidian and Hugo</title>
       <link>/posts/2025/2025-02-01-hosting-blog-powered-by-obsidian-and-hugo/</link>

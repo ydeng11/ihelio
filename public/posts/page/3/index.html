@@ -13,7 +13,7 @@
 <meta name="google-site-verification" content="XYZabc">
 <meta name="yandex-verification" content="XYZabc">
 <meta name="msvalidate.01" content="XYZabc">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="/%3Clink%20/%20abs%20url%3E">
 <link rel="icon" type="image/png" sizes="16x16" href="/%3Clink%20/%20abs%20url%3E">
 <link rel="icon" type="image/png" sizes="32x32" href="/%3Clink%20/%20abs%20url%3E">
@@ -121,7 +121,7 @@
                 <img src="/apple-touch-icon.png" alt="" aria-label="logo"
                     height="35">Home</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -176,6 +176,21 @@
     </a>
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">gRPC tutorial - 1: Overview
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>What is gRPC gRPC is a high performance open-source freature-rich RPC (remote procedure calls) framework developed by google. “g” stands for many different meaning like green, good and etc.
+It is a protocal that allows a program to
+execute a procedure of another program located in other computer without the developer explicitly coding the details for the remote interaction gRPC is one kind of s2s call and widely used to replace REST API in the backend due to:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-16 16:17:15 -0400 EDT'>September 16, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;362 words&nbsp;·&nbsp;Me</footer>
+  <a class="entry-link" aria-label="post link to gRPC tutorial - 1: Overview" href="/posts/2023/grpc-tutorial---1/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -302,20 +317,6 @@ The motivation behind Quarkus was to breathe new life into the Java ecosystem fo
   </div>
   <footer class="entry-footer"><span title='2023-09-16 16:17:15 -0400 EDT'>September 16, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;458 words&nbsp;·&nbsp;Me</footer>
   <a class="entry-link" aria-label="post link to Mastering the Art of Car Dealership Negotiations" href="/posts/2023/mastering-the-art-of-car-dealership-negotiations/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Neural Network in Numpy
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is to implement backpropagation algorithm in numpy which would help me to further understand how this works.
-import pandas as pd import numpy as np from pdb import set_trace from sklearn import datasets Design the network structure Each layer contains the weights/bias and activation union structures = [ {&#34;input_dim&#34;: 2, &#34;output_dim&#34;: 25, &#34;activation&#34;: &#34;relu&#34;}, {&#34;input_dim&#34;: 25, &#34;output_dim&#34;: 50, &#34;activation&#34;: &#34;relu&#34;}, {&#34;input_dim&#34;: 50, &#34;output_dim&#34;: 50, &#34;activation&#34;: &#34;relu&#34;}, {&#34;input_dim&#34;: 50, &#34;output_dim&#34;: 25, &#34;activation&#34;: &#34;relu&#34;}, {&#34;input_dim&#34;: 25, &#34;output_dim&#34;: 1, &#34;activation&#34;: &#34;sigmoid&#34;}, ] Initiate the parameters The weights can be random number and bias are preferred to be small postive values in order to pass the relu in the beginning. def init_layers(structures, seed = 1105): params = {} for i, structure in enumerate(structures): params[&#34;W_{}&#34;.format(i)] = np.random.randn(structure[&#34;input_dim&#34;], structure[&#34;output_dim&#34;])/10 params[&#34;b_{}&#34;.format(i)] = np.random.randint(1,10, (1, structure[&#34;output_dim&#34;]))/100 return params The forward and backword activation union During back propagation, it is appraent we would need use the output value before activation in feed forward process. We would need to save the ouput before and after activation in each layer for back propagation later. def relu(U): U[U &lt; 0] = 0 return U def sigmoid(U): return np.divide(1, (1&#43;np.exp(-1*U))) def relu_backward(du, U): du[U &lt; 0] = 0 return du def sigmoid_backward(du, U): sig = sigmoid(U) * (1 - sigmoid(U)) return du*sig So, we return two values in single_layer_feedforward function corresponding to the activated output and output which doesn’t. The activated output will be feed as input into the next layer and the unactivated output will be used in backpropagation - the reason is we need the partial derivatives of activation union to its input.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-09-16 16:17:15 -0400 EDT'>September 16, 2023</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;829 words&nbsp;·&nbsp;Me</footer>
-  <a class="entry-link" aria-label="post link to Neural Network in Numpy" href="/posts/2023/neural-network-in-numpy/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
