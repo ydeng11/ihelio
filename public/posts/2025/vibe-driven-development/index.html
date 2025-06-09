@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Vibe Driven Development | iHelio</title>
+<meta name="keywords" content="">
+<meta name="description" content="How I Built a Zotero Plugin with an AI Pair Programmer
+I had an itch. My Zotero library, a collection of academic papers I&rsquo;ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. &ldquo;How hard could it be,&rdquo; I thought, &ldquo;to just build a plugin to do it for me?&rdquo;">
+<meta name="author" content="Me">
+<link rel="canonical" href="/posts/2025/vibe-driven-development/">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="16x16" href="/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/%3Clink%20/%20abs%20url%3E">
+<link rel="apple-touch-icon" href="/%3Clink%20/%20abs%20url%3E">
+<link rel="mask-icon" href="/%3Clink%20/%20abs%20url%3E">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/2025/vibe-driven-development/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4SSGN5Y2Z"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-R4SSGN5Y2Z');
+        }
+      </script><meta property="og:url" content="/posts/2025/vibe-driven-development/">
+  <meta property="og:site_name" content="iHelio">
+  <meta property="og:title" content="Vibe Driven Development">
+  <meta property="og:description" content="How I Built a Zotero Plugin with an AI Pair Programmer I had an itch. My Zotero library, a collection of academic papers I’ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. “How hard could it be,” I thought, “to just build a plugin to do it for me?”">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-08T16:30:07+03:00">
+    <meta property="article:modified_time" content="2025-06-08T16:30:07+03:00">
+      <meta property="og:image" content="/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Vibe Driven Development">
+<meta name="twitter:description" content="How I Built a Zotero Plugin with an AI Pair Programmer
+I had an itch. My Zotero library, a collection of academic papers I&rsquo;ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. &ldquo;How hard could it be,&rdquo; I thought, &ldquo;to just build a plugin to do it for me?&rdquo;">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Vibe Driven Development",
+      "item": "/posts/2025/vibe-driven-development/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vibe Driven Development",
+  "name": "Vibe Driven Development",
+  "description": "How I Built a Zotero Plugin with an AI Pair Programmer I had an itch. My Zotero library, a collection of academic papers I\u0026rsquo;ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. \u0026ldquo;How hard could it be,\u0026rdquo; I thought, \u0026ldquo;to just build a plugin to do it for me?\u0026rdquo;\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "How I Built a Zotero Plugin with an AI Pair Programmer I had an itch. My Zotero library, a collection of academic papers I’ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. “How hard could it be,” I thought, “to just build a plugin to do it for me?”\nAs it turns out, with an AI pair programmer, it’s surprisingly achievable.\nIn just two days, I went from knowing next to nothing about Zotero plugin development—I’d never seriously coded in TypeScript or built a browser extension before—to having a working plugin that validates attachments, fetches metadata, processes preprints, and even downloads missing files.\nThe result of this two-day sprint is a plugin I call Zotadata, and you can check it out on GitHub.\nI call this “Vibe Driven Development.” It’s a new way of working where you, the developer, act as the architect and the project lead, while the AI does the heavy lifting. You don’t have to get your hands dirty with every line of code, but you absolutely need to be the boss who knows what smells right and what’s a dead end.\nThe Art of Prompting is Real The term “prompt engineering” gets thrown around a lot, but it’s a real skill. The big AI providers like Anthropic and Google feed their models complex “system prompts” that act as a constitution—guiding their behavior, setting rules, and establishing a persona. For instance, Claude’s system prompt reminds it to be helpful and harmless, and to be cautious about giving advice on sensitive topics like law or finance. These foundational instructions are what separate a useful assistant from a chaotic text generator.\nThis highlights a crucial truth: for an LLM, context is everything. To get the results you want, you have to be a good coach.\nBefore writing a single line of code, I sat down with the AI and hammered out a roadmap. This might seem like overkill, but it’s essential. Just like humans, AI models don’t have perfect memory, especially in long conversations. A clear roadmap helps refresh the AI’s “memory” and keeps it on track. It also prevents the model from getting confused by previous, unrelated tangents. I found that starting a new, clean chat session for each major feature, armed with our roadmap, was the most effective way to keep the AI focused.\nYou’re the Expert, The AI is the Intern As smart as these models are, they aren’t the source of truth. They can and will make mistakes. Your domain knowledge is the critical feedback loop that keeps the project from going off the rails.\nFor example, when I tasked the AI with implementing the “Fetch Metadata” feature, its first instinct was to suggest a list of free public APIs. It was a plausible, even clever, solution. But I knew from my own experience that Zotero has a built-in, high-quality translator for fetching metadata via DOIs and ISBNs.\nThis was a classic case of the AI finding a “good” solution, but not the best one. I course-corrected, instructing it to prioritize Zotero’s native functions and only use the other APIs as a fallback. The result was a feature that was more robust, efficient, and better integrated. You are the senior developer in this relationship; the AI is a brilliant but inexperienced intern. You have to provide the guidance and critical feedback.\nThis is why having a tight feedback loop is non-negotiable. It’s not just one thing; it’s a multi-layered system for catching errors and keeping the AI on track.\nPragmatic Feedback: Manual First, Automated When Necessary. Ideally, we should all be building projects with robust, automated test suites from day one. I had the AI generate unit tests and verbose logging, which provided a solid foundation. But if I’m being honest, I got a bit lazy. For a project of this scale, the manual feedback loop was often faster and, frankly, good enough. My primary cycle became a rapid build -\u003e install -\u003e test -\u003e repeat. I’d install the plugin in Zotero, try to break it, and the moment I saw something odd, I’d describe it to the AI. This hands-on approach worked well here, but I’m fully aware that for a more complex project, a more disciplined, test-driven framework would be essential to keep things from spiraling out of control.\nStructural Feedback: Small, Atomic Commits. Working with an AI can feel like moving at lightning speed, which makes it easy to create a tangled mess. To counter this, I was disciplined about my workflow. I broke down every feature into the smallest possible tasks. After the AI completed a task and I verified it worked, I immediately made a commit. This protected my work and created clean, isolated changes. If the AI went completely off the rails on the next task, I could always roll back to a known good state without losing much progress.\nIn this “vibe driven” style of coding, you’re the driver, but your hands are off the wheel most of the time. Your feedback loop—the tests, the logs, the manual checks, and the git history—is your navigation system, your dashboard, and your emergency brake, all rolled into one. It’s what lets you drive fast without crashing.\nThe Sci-Hub Surprise: A Lesson in AI Psychology One of the most fascinating interactions was when I wanted to add a feature to download missing papers. My models are quite sensitive to intellectual property concerns, so when I initially made a vague request about “downloading papers from Sci-Hub,” the model politely declined.\nFair enough. But then I re-phrased my request. I asked it to “use the Sci-Hub API to download files for academic papers given a DOI.” This time, it worked perfectly.\nThe model’s safety training likely triggered on the general concept of “downloading papers,” which could be interpreted as piracy. But the more specific, technical instruction to “use an API” was seen as a standard coding task. It’s a subtle but powerful lesson in how to navigate the ethical guardrails of these systems.\nChoosing Your AI Teammate For this project, I primarily relied on Claude 4.0 Sonnet and Gemini 2.5 Pro. Both are incredibly powerful, but I found they had different strengths.\nIn my experience, Claude felt a bit more robust for the back-and-forth of debugging. At one point, Gemini got stuck in a repetitive loop trying to fix a bug. I switched over to Claude with the same context, and it identified the root cause and implemented a fix almost immediately. However, both models were instrumental in getting the project done. Your mileage may vary, and it’s great to have options.\nThe Future is Fun I had a blast building this plugin. I could multitask, watch YouTube, or just let my mind wander while my AI partner churned out code.\nI don’t think AI will replace experienced engineers anytime soon. Instead, it’s going to supercharge them. The more experience you have, the better you are at guiding the AI, spotting its mistakes, and leveraging its strengths. It changes the job from being a bricklayer to being an architect. And honestly, it’s a lot more fun. Let’s go get the vibe!\n",
+  "wordCount" : "1210",
+  "inLanguage": "en",
+  "image": "/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2025-06-08T16:30:07+03:00",
+  "dateModified": "2025-06-08T16:30:07+03:00",
+  "author":{
+    "@type": "Person",
+    "name": "Me"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/2025/vibe-driven-development/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "iHelio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/%3Clink%20/%20abs%20url%3E"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Home (Alt + H)">
+                <img src="/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="35">Home</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Vibe Driven Development
+    </h1>
+    <div class="post-meta"><span title='2025-06-08 16:30:07 +0300 +0300'>June 8, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;1210 words&nbsp;·&nbsp;Me
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="how-i-built-a-zotero-plugin-with-an-ai-pair-programmer">How I Built a Zotero Plugin with an AI Pair Programmer<a hidden class="anchor" aria-hidden="true" href="#how-i-built-a-zotero-plugin-with-an-ai-pair-programmer">#</a></h3>
+<p>I had an itch. My Zotero library, a collection of academic papers I&rsquo;ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. &ldquo;How hard could it be,&rdquo; I thought, &ldquo;to just build a plugin to do it for me?&rdquo;</p>
+<p>As it turns out, with an AI pair programmer, it&rsquo;s surprisingly achievable.</p>
+<p>In just two days, I went from knowing next to nothing about Zotero plugin development—I&rsquo;d never seriously coded in TypeScript or built a browser extension before—to having a working plugin that validates attachments, fetches metadata, processes preprints, and even downloads missing files.</p>
+<p>The result of this two-day sprint is a plugin I call <strong>Zotadata</strong>, and you can <a href="https://github.com/ydeng11/zotero-zotadata">check it out on GitHub</a>.</p>
+<p>I call this &ldquo;Vibe Driven Development.&rdquo; It&rsquo;s a new way of working where you, the developer, act as the architect and the project lead, while the AI does the heavy lifting. You don&rsquo;t have to get your hands dirty with every line of code, but you absolutely need to be the boss who knows what smells right and what&rsquo;s a dead end.</p>
+<h3 id="the-art-of-prompting-is-real">The Art of Prompting is Real<a hidden class="anchor" aria-hidden="true" href="#the-art-of-prompting-is-real">#</a></h3>
+<p>The term &ldquo;prompt engineering&rdquo; gets thrown around a lot, but it&rsquo;s a real skill. The big AI providers like Anthropic and Google feed their models complex &ldquo;system prompts&rdquo; that act as a constitution—guiding their behavior, setting rules, and establishing a persona. For instance, Claude&rsquo;s system prompt reminds it to be helpful and harmless, and to be cautious about giving advice on sensitive topics like law or finance. These foundational instructions are what separate a useful assistant from a chaotic text generator.</p>
+<p>This highlights a crucial truth: for an LLM, <strong>context is everything</strong>. To get the results you want, you have to be a good coach.</p>
+<p>Before writing a single line of code, I sat down with the AI and hammered out a roadmap. This might seem like overkill, but it&rsquo;s essential. Just like humans, AI models don&rsquo;t have perfect memory, especially in long conversations. A clear roadmap helps refresh the AI&rsquo;s &ldquo;memory&rdquo; and keeps it on track. It also prevents the model from getting confused by previous, unrelated tangents. I found that starting a new, clean chat session for each major feature, armed with our roadmap, was the most effective way to keep the AI focused.</p>
+<h3 id="youre-the-expert-the-ai-is-the-intern">You&rsquo;re the Expert, The AI is the Intern<a hidden class="anchor" aria-hidden="true" href="#youre-the-expert-the-ai-is-the-intern">#</a></h3>
+<p>As smart as these models are, they aren&rsquo;t the source of truth. They can and will make mistakes. Your domain knowledge is the critical feedback loop that keeps the project from going off the rails.</p>
+<p>For example, when I tasked the AI with implementing the &ldquo;Fetch Metadata&rdquo; feature, its first instinct was to suggest a list of free public APIs. It was a plausible, even clever, solution. But I knew from my own experience that Zotero has a built-in, high-quality translator for fetching metadata via DOIs and ISBNs.</p>
+<p>This was a classic case of the AI finding a &ldquo;good&rdquo; solution, but not the <em>best</em> one. I course-corrected, instructing it to prioritize Zotero&rsquo;s native functions and only use the other APIs as a fallback. The result was a feature that was more robust, efficient, and better integrated. You are the senior developer in this relationship; the AI is a brilliant but inexperienced intern. You have to provide the guidance and critical feedback.</p>
+<p>This is why having a <strong>tight feedback loop</strong> is non-negotiable. It&rsquo;s not just one thing; it&rsquo;s a multi-layered system for catching errors and keeping the AI on track.</p>
+<ol>
+<li>
+<p><strong>Pragmatic Feedback: Manual First, Automated When Necessary.</strong> Ideally, we should all be building projects with robust, automated test suites from day one. I had the AI generate unit tests and verbose logging, which provided a solid foundation. But if I&rsquo;m being honest, I got a bit lazy. For a project of this scale, the manual feedback loop was often faster and, frankly, good enough. My primary cycle became a rapid <code>build -&gt; install -&gt; test -&gt; repeat</code>. I&rsquo;d install the plugin in Zotero, try to break it, and the moment I saw something odd, I&rsquo;d describe it to the AI. This hands-on approach worked well here, but I&rsquo;m fully aware that for a more complex project, a more disciplined, test-driven framework would be essential to keep things from spiraling out of control.</p>
+</li>
+<li>
+<p><strong>Structural Feedback: Small, Atomic Commits.</strong> Working with an AI can feel like moving at lightning speed, which makes it easy to create a tangled mess. To counter this, I was disciplined about my workflow. I broke down every feature into the smallest possible tasks. After the AI completed a task and I verified it worked, I immediately made a commit. This protected my work and created clean, isolated changes. If the AI went completely off the rails on the next task, I could always roll back to a known good state without losing much progress.</p>
+</li>
+</ol>
+<p>In this &ldquo;vibe driven&rdquo; style of coding, you&rsquo;re the driver, but your hands are off the wheel most of the time. Your feedback loop—the tests, the logs, the manual checks, and the git history—is your navigation system, your dashboard, and your emergency brake, all rolled into one. It&rsquo;s what lets you drive fast without crashing.</p>
+<h3 id="the-sci-hub-surprise-a-lesson-in-ai-psychology">The Sci-Hub Surprise: A Lesson in AI Psychology<a hidden class="anchor" aria-hidden="true" href="#the-sci-hub-surprise-a-lesson-in-ai-psychology">#</a></h3>
+<p>One of the most fascinating interactions was when I wanted to add a feature to download missing papers. My models are quite sensitive to intellectual property concerns, so when I initially made a vague request about &ldquo;downloading papers from Sci-Hub,&rdquo; the model politely declined.</p>
+<p>Fair enough. But then I re-phrased my request. I asked it to &ldquo;use the Sci-Hub API to download files for academic papers given a DOI.&rdquo; This time, it worked perfectly.</p>
+<p>The model&rsquo;s safety training likely triggered on the general concept of &ldquo;downloading papers,&rdquo; which could be interpreted as piracy. But the more specific, technical instruction to &ldquo;use an API&rdquo; was seen as a standard coding task. It&rsquo;s a subtle but powerful lesson in how to navigate the ethical guardrails of these systems.</p>
+<h3 id="choosing-your-ai-teammate">Choosing Your AI Teammate<a hidden class="anchor" aria-hidden="true" href="#choosing-your-ai-teammate">#</a></h3>
+<p>For this project, I primarily relied on <strong>Claude 4.0 Sonnet</strong> and <strong>Gemini 2.5 Pro</strong>. Both are incredibly powerful, but I found they had different strengths.</p>
+<p>In my experience, Claude felt a bit more robust for the back-and-forth of debugging. At one point, Gemini got stuck in a repetitive loop trying to fix a bug. I switched over to Claude with the same context, and it identified the root cause and implemented a fix almost immediately. However, both models were instrumental in getting the project done. Your mileage may vary, and it&rsquo;s great to have options.</p>
+<h3 id="the-future-is-fun">The Future is Fun<a hidden class="anchor" aria-hidden="true" href="#the-future-is-fun">#</a></h3>
+<p>I had a blast building this plugin. I could multitask, watch YouTube, or just let my mind wander while my AI partner churned out code.</p>
+<p>I don&rsquo;t think AI will replace experienced engineers anytime soon. Instead, it&rsquo;s going to supercharge them. The more experience you have, the better you are at guiding the AI, spotting its mistakes, and leveraging its strengths. It changes the job from being a bricklayer to being an architect. And honestly, it&rsquo;s a lot more fun. Let&rsquo;s go get the vibe!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="/posts/2025/solving-mac-mini-random-restarts/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Solving Mac Mini Random Restarts</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on x"
+            href="https://x.com/intent/tweet/?text=Vibe%20Driven%20Development&amp;url=%2fposts%2f2025%2fvibe-driven-development%2f&amp;hashtags=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2f2025%2fvibe-driven-development%2f&amp;title=Vibe%20Driven%20Development&amp;summary=Vibe%20Driven%20Development&amp;source=%2fposts%2f2025%2fvibe-driven-development%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on reddit"
+            href="https://reddit.com/submit?url=%2fposts%2f2025%2fvibe-driven-development%2f&title=Vibe%20Driven%20Development">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=%2fposts%2f2025%2fvibe-driven-development%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on whatsapp"
+            href="https://api.whatsapp.com/send?text=Vibe%20Driven%20Development%20-%20%2fposts%2f2025%2fvibe-driven-development%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on telegram"
+            href="https://telegram.me/share/url?text=Vibe%20Driven%20Development&amp;url=%2fposts%2f2025%2fvibe-driven-development%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Vibe Driven Development on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Vibe%20Driven%20Development&u=%2fposts%2f2025%2fvibe-driven-development%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="/">iHelio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
