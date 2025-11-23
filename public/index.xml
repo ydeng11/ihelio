@@ -9,7 +9,7 @@
       <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Jun 2025 16:30:07 +0300</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -59,7 +59,7 @@
       <link>/posts/2025/life-wiki-selfhosted-on-your-nas/</link>
       <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
       <guid>/posts/2025/life-wiki-selfhosted-on-your-nas/</guid>
-      <description>&lt;h1&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;life-wiki-selfhosted-on-your-nas&#34;&gt;Life Wiki Selfhosted on Your NAS&lt;/h1&gt;
 &lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;I used Notion for a couple of years and found it to be one of the best tools for note-taking and building a personal wiki. Why did I stop using it? It wasn&amp;rsquo;t about the cost—Notion&amp;rsquo;s freemium plan is perfectly sufficient for personal use. Instead, there were two main issues that drove me away.&lt;/p&gt;
 &lt;p&gt;First, typing math equations in Notion is cumbersome because you have to use a dedicated &amp;ldquo;Block&amp;rdquo; for them. Second, it&amp;rsquo;s difficult to export or migrate your data to other platforms, which, while not entirely Notion&amp;rsquo;s fault, still concerns me. Most importantly, I realized I should make better use of my Synology NAS. That&amp;rsquo;s why I decided to explore open-source, self-hosted alternatives.&lt;/p&gt;</description>
