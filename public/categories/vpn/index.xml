@@ -2,24 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>VPN on iHelio</title>
-    <link>/categories/vpn/</link>
+    <link>https://ihelio.today/categories/vpn/</link>
     <description>Recent content in VPN on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 22:04:03 -0400</lastBuildDate>
-    <atom:link href="/categories/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ihelio.today/categories/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expose Containerized Services With SSL via Tailscale</title>
-      <link>/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</link>
+      <link>https://ihelio.today/posts/2025/expose-containerized-services-with-ssl-via-tailscale/</link>
       <pubDate>Mon, 27 Jan 2025 22:04:03 -0400</pubDate>
-      <guid>/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;Normally we don&amp;rsquo;t have to use SSL when we connect to the services via Tailscale as all connections are end-to-end encrypted and only allowed users could access your network. But there are always exceptions like you want put your tailscale domain behind a public domain or you have to use SSL for internal connections. For example, &lt;a href=&#34;https://github.com/hoarder-app/hoarder&#34;&gt;horader&lt;/a&gt; on ios requires the SSL and it won&amp;rsquo;t work when we host hoarder using docker even we enable HTTPS on tailscale DNS and add cert to the NAS. When I access hoarder via the tailscale of the NAS, it always returns insecure connection. I tried created the SSL cert using &lt;code&gt;tailscale cert&lt;/code&gt; and make it the default cert of my Synology, it still fails as tailscale cert only cover the port 443 so the services running at other ports are not covered.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2025/expose-containerized-services-with-ssl-via-tailscale/</guid>
+      <description>--- Normally we don&amp;#39;t have to use SSL when we connect to the services via Tailscale as all connections are end-to-end encrypted and only allowed users could...</description>
     </item>
   </channel>
 </rss>

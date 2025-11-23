@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Obsidian on iHelio</title>
+    <link>https://ihelio.today/tags/obsidian/</link>
+    <description>Recent content in Obsidian on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2025 00:44:44 +0300</lastBuildDate>
+    <atom:link href="https://ihelio.today/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting Blog powered by Obsidian and Hugo</title>
+      <link>https://ihelio.today/posts/2025/hosting-blog-powered-by-obsidian-and-hugo/</link>
+      <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
+      <guid>https://ihelio.today/posts/2025/hosting-blog-powered-by-obsidian-and-hugo/</guid>
+      <description>Since I started using Obsidian as my knowledge management and writing tool, it is a pain for me to manage my posts for my blog. I used to write it in the...</description>
+    </item>
+  </channel>
+</rss>

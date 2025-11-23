@@ -2,15 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on iHelio</title>
-    <link>/tags/</link>
+    <link>https://ihelio.today/tags/</link>
     <description>Recent content in Tags on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 10:00:00 +0300</lastBuildDate>
+    <atom:link href="https://ihelio.today/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency</title>
+      <link>https://ihelio.today/tags/concurrency/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>https://ihelio.today/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://ihelio.today/tags/java/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>https://ihelio.today/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://ihelio.today/tags/programming/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>https://ihelio.today/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://ihelio.today/tags/ai/</link>
+      <pubDate>Sun, 08 Jun 2025 16:30:07 +0300</pubDate>
+      <guid>https://ihelio.today/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://ihelio.today/tags/productivity/</link>
+      <pubDate>Sun, 08 Jun 2025 16:30:07 +0300</pubDate>
+      <guid>https://ihelio.today/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://ihelio.today/tags/macos/</link>
+      <pubDate>Sat, 07 Jun 2025 21:47:17 +0300</pubDate>
+      <guid>https://ihelio.today/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://ihelio.today/tags/hugo/</link>
+      <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
+      <guid>https://ihelio.today/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Obsidian</title>
+      <link>https://ihelio.today/tags/obsidian/</link>
+      <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
+      <guid>https://ihelio.today/tags/obsidian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted</title>
+      <link>https://ihelio.today/tags/self-hosted/</link>
+      <pubDate>Sat, 01 Feb 2025 00:44:44 +0300</pubDate>
+      <guid>https://ihelio.today/tags/self-hosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>https://ihelio.today/tags/homelab/</link>
+      <pubDate>Mon, 27 Jan 2025 22:04:03 -0400</pubDate>
+      <guid>https://ihelio.today/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailscale</title>
+      <link>https://ihelio.today/tags/tailscale/</link>
+      <pubDate>Mon, 27 Jan 2025 22:04:03 -0400</pubDate>
+      <guid>https://ihelio.today/tags/tailscale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outline</title>
+      <link>https://ihelio.today/tags/outline/</link>
+      <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
+      <guid>https://ihelio.today/tags/outline/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

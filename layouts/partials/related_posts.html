@@ -1,0 +1,33 @@
+{{- $related := .Site.RegularPages.Related . | first 5 -}}
+{{- with $related -}}
+<section class="related-posts">
+    <h3>{{ i18n "related_posts" | default "Related Posts" }}</h3>
+    <ul class="related-posts-list">
+    {{- range . -}}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="meta">
+                &nbsp;&mdash;&nbsp;
+                {{- if .Date }}
+                {{- .Date.Format (default "January 2, 2006" .Site.Params.DateFormat) -}}
+                {{- end }}
+            </span>
+        </li>
+    {{- end -}}
+    </ul>
+</section>
+<style>
+    .related-posts {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+    }
+    .related-posts h3 {
+        margin-bottom: 20px;
+    }
+    .related-posts-list li {
+        margin-bottom: 10px;
+    }
+</style>
+{{- end -}}
+

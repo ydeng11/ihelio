@@ -2,56 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Selfhosted on iHelio</title>
-    <link>/categories/selfhosted/</link>
+    <link>https://ihelio.today/categories/selfhosted/</link>
     <description>Recent content in Selfhosted on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 22:04:03 -0400</lastBuildDate>
-    <atom:link href="/categories/selfhosted/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ihelio.today/categories/selfhosted/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expose Containerized Services With SSL via Tailscale</title>
-      <link>/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</link>
+      <link>https://ihelio.today/posts/2025/expose-containerized-services-with-ssl-via-tailscale/</link>
       <pubDate>Mon, 27 Jan 2025 22:04:03 -0400</pubDate>
-      <guid>/posts/2025/2025-01-27-expose-containerized-services-with-ssl-via-tailscale/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;Normally we don&amp;rsquo;t have to use SSL when we connect to the services via Tailscale as all connections are end-to-end encrypted and only allowed users could access your network. But there are always exceptions like you want put your tailscale domain behind a public domain or you have to use SSL for internal connections. For example, &lt;a href=&#34;https://github.com/hoarder-app/hoarder&#34;&gt;horader&lt;/a&gt; on ios requires the SSL and it won&amp;rsquo;t work when we host hoarder using docker even we enable HTTPS on tailscale DNS and add cert to the NAS. When I access hoarder via the tailscale of the NAS, it always returns insecure connection. I tried created the SSL cert using &lt;code&gt;tailscale cert&lt;/code&gt; and make it the default cert of my Synology, it still fails as tailscale cert only cover the port 443 so the services running at other ports are not covered.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2025/expose-containerized-services-with-ssl-via-tailscale/</guid>
+      <description>--- Normally we don&amp;#39;t have to use SSL when we connect to the services via Tailscale as all connections are end-to-end encrypted and only allowed users could...</description>
     </item>
     <item>
       <title>Remote Accessing NAS using Tailscale</title>
-      <link>/posts/2025/remote_accessing_nas_using_tailscale/</link>
+      <link>https://ihelio.today/posts/2025/remote-accessing-nas-using-tailscale/</link>
       <pubDate>Sat, 25 Jan 2025 22:42:13 -0500</pubDate>
-      <guid>/posts/2025/remote_accessing_nas_using_tailscale/</guid>
-      <description>&lt;h1 id=&#34;remote-accessing-nas-using-tailscale&#34;&gt;Remote Accessing NAS using Tailscale&lt;/h1&gt;
-&lt;p&gt;Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As a mesh network, Tailscale enhances connectivity when accessing NAS services remotely. Compared to traditional VPNs and firewalls, WireGuard and Zero Trust offer significantly better security since every device requires authentication to communicate with others. This granular access control minimizes risk—even if an attacker compromises one device, they won&amp;rsquo;t automatically gain access to the entire private network. Unlike conventional firewalls, which often have a hardened exterior but a vulnerable core, Tailscale ensures both outer and inner security.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2025/remote-accessing-nas-using-tailscale/</guid>
+      <description>Simply put, Tailscale is a private VPN built on the WireGuard protocol, designed to support a Zero Trust architecture for managing devices within a subnet. As...</description>
     </item>
     <item>
       <title>Build a home media server but automated</title>
-      <link>/posts/2023/build-a-home-media-server/</link>
+      <link>https://ihelio.today/posts/2023/build-a-home-media-server-but-automated/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>/posts/2023/build-a-home-media-server/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;In &lt;a href=&#34;https://ihelio.today/archives/howtoroutetransmissiontovpncontainer&#34;&gt;Route transmission to VPN container&lt;/a&gt;, I talked about how to download contents via VPN tunnel so we can get rid of some troubles. But that is far from enough for us to build a home media server which should work as Netflix and Hulu to us. We shouldn&amp;rsquo;t bother with the torrent and subtitle search. Once we add a show to our watch list, everything should be set up automatically. I will introduce the tools and necessary setup for me to build a home media server in the following sections.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/build-a-home-media-server-but-automated/</guid>
+      <description>In [Route transmission to VPN container](https://ihelio.today/archives/howtoroutetransmissiontovpncontainer), I talked about how to download contents via VPN...</description>
     </item>
     <item>
       <title>Expose NAS Services with Att Gateway</title>
-      <link>/posts/2023/expose-nas-services-with-att-gateway/</link>
+      <link>https://ihelio.today/posts/2023/expose-nas-services-with-att-gateway/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>/posts/2023/expose-nas-services-with-att-gateway/</guid>
-      <description>&lt;p&gt;Recently I changed my ISP to ATT to try their fiber, and they gave me the bgw320 as the gateway for the Internet service. And I have trouble connecting to my Synology&amp;rsquo;s services like Jellyfin.&lt;/p&gt;
-&lt;p&gt;I suspect it has some conflicts with the network of these docker services running in Synology or the internet setup of Synology. Considering the configuration of docker network could be another rabbit hole, I didn&amp;rsquo;t go that route. I decided to connect the gateway with my own router and use the passthrough function in the gateway so I can do the port forwarding in my router.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/expose-nas-services-with-att-gateway/</guid>
+      <description>Recently I changed my ISP to ATT to try their fiber, and they gave me the bgw320 as the gateway for the Internet service. And I have trouble connecting to my...</description>
     </item>
     <item>
       <title>How to route transmission to VPN container?</title>
-      <link>/posts/2023/how-to-route-transmission-to-vpn-container/</link>
+      <link>https://ihelio.today/posts/2023/how-to-route-transmission-to-vpn-container/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>/posts/2023/how-to-route-transmission-to-vpn-container/</guid>
-      <description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
-&lt;p&gt;When you have a NAS at home, it feel bad if you don&amp;rsquo;t keep it running for something even if you don&amp;rsquo;t use it. It is the major backup to store the photos we shoot with our iphones. However, it is just basic use and hosting a media center with it sounds more cool. I used to use &lt;a href=&#34;https://github.com/haugene/docker-transmission-openvpn&#34;&gt;transmission-openvpn&lt;/a&gt; and it works perfectly, however, my VPN expires and I decided to use proton free tier. This is where things go south - I spent two days on it and I cannot get it work. When I am about to give up, I found a better approach for my purpose - running transmission and vpn in separate docker container and route transmission to vpn conatiner. It sounds a great idea in the first place given we should only do one job for each service - unix&amp;rsquo;s princinple.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/how-to-route-transmission-to-vpn-container/</guid>
+      <description>When you have a NAS at home, it feel bad if you don&amp;#39;t keep it running for something even if you don&amp;#39;t use it. It is the major backup to store the photos we...</description>
     </item>
   </channel>
 </rss>

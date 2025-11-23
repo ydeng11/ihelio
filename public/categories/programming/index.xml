@@ -2,178 +2,114 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Programming on iHelio</title>
-    <link>/categories/programming/</link>
+    <link>https://ihelio.today/categories/programming/</link>
     <description>Recent content in Programming on iHelio</description>
     <image>
       <title>iHelio</title>
-      <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Nov 2025 10:00:00 +0300</lastBuildDate>
-    <atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ihelio.today/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java Concurrency Revisited: Synchronized vs. ReentrantLock</title>
-      <link>/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</link>
+      <link>https://ihelio.today/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</link>
       <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
-      <guid>/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</guid>
-      <description>&lt;h1 id=&#34;java-concurrency-revisited-synchronized-vs-reentrantlock&#34;&gt;Java Concurrency Revisited: Synchronized vs. ReentrantLock&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Java Concurrency in Practice&lt;/em&gt; is the bible of Java multi-threading. It’s dense, thorough, and frankly, a bit intimidating.&lt;/p&gt;
-&lt;p&gt;For years, I relied heavily on Java&amp;rsquo;s &lt;code&gt;java.util.concurrent&lt;/code&gt; package (ConcurrentHashMap, my beloved), ignoring the low-level mechanics underneath. Why reinvent the wheel when the standard library is so good?&lt;/p&gt;
-&lt;p&gt;But to truly master scalability, you have to understand what happens under the hood. Recently, I decided to peel back the layers and revisit the building blocks of Java concurrency: &lt;code&gt;synchronized&lt;/code&gt; and &lt;code&gt;ReentrantLock&lt;/code&gt;.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</guid>
+      <description>*Java Concurrency in Practice* is the bible of Java multi-threading. It’s dense, thorough, and frankly, a bit intimidating. For years, I relied heavily on...</description>
     </item>
     <item>
       <title>Vibe Driven Development</title>
-      <link>/posts/2025/vibe-driven-development/</link>
+      <link>https://ihelio.today/posts/2025/vibe-driven-development/</link>
       <pubDate>Sun, 08 Jun 2025 16:30:07 +0300</pubDate>
-      <guid>/posts/2025/vibe-driven-development/</guid>
-      <description>&lt;h3 id=&#34;how-i-built-a-zotero-plugin-with-an-ai-pair-programmer&#34;&gt;How I Built a Zotero Plugin with an AI Pair Programmer&lt;/h3&gt;
-&lt;p&gt;I had an itch. My Zotero library, a collection of academic papers I&amp;rsquo;ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted to clean it up. But the thought of checking each attachment manually was daunting. &amp;ldquo;How hard could it be,&amp;rdquo; I thought, &amp;ldquo;to just build a plugin to do it for me?&amp;rdquo;&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2025/vibe-driven-development/</guid>
+      <description>I had an itch. My Zotero library, a collection of academic papers I&amp;#39;ve gathered over the years, was full of dead links. It felt messy, and I desperately wanted...</description>
     </item>
     <item>
       <title>Life Wiki Selfhosted on Your NAS</title>
-      <link>/posts/2025/life-wiki-selfhosted-on-your-nas/</link>
+      <link>https://ihelio.today/posts/2025/life-wiki-selfhosted-on-your-nas/</link>
       <pubDate>Fri, 10 Jan 2025 00:28:28 -0500</pubDate>
-      <guid>/posts/2025/life-wiki-selfhosted-on-your-nas/</guid>
-      <description>&lt;h1 id=&#34;life-wiki-selfhosted-on-your-nas&#34;&gt;Life Wiki Selfhosted on Your NAS&lt;/h1&gt;
-&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;I used Notion for a couple of years and found it to be one of the best tools for note-taking and building a personal wiki. Why did I stop using it? It wasn&amp;rsquo;t about the cost—Notion&amp;rsquo;s freemium plan is perfectly sufficient for personal use. Instead, there were two main issues that drove me away.&lt;/p&gt;
-&lt;p&gt;First, typing math equations in Notion is cumbersome because you have to use a dedicated &amp;ldquo;Block&amp;rdquo; for them. Second, it&amp;rsquo;s difficult to export or migrate your data to other platforms, which, while not entirely Notion&amp;rsquo;s fault, still concerns me. Most importantly, I realized I should make better use of my Synology NAS. That&amp;rsquo;s why I decided to explore open-source, self-hosted alternatives.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2025/life-wiki-selfhosted-on-your-nas/</guid>
+      <description>I used Notion for a couple of years and found it to be one of the best tools for note-taking and building a personal wiki. Why did I stop using it? It wasn&amp;#39;t...</description>
     </item>
     <item>
       <title>Building a Single Page Application (SPA) with Quarkus and Quinoa</title>
-      <link>/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</link>
+      <link>https://ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</link>
       <pubDate>Sat, 21 Dec 2024 23:21:14 -0400</pubDate>
-      <guid>/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</guid>
-      <description>&lt;p&gt;Quarkus is an exciting framework for building modern Java applications, and Quinoa takes it up a notch by streamlining Single Page Application (SPA) development. Together, they enable a seamless workflow for both frontend and backend developers. This guide walks through setting up a Quarkus-based SPA using React as an example, although the process works just as well for other frameworks.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;why-quinoa-matters&#34;&gt;Why Quinoa Matters&lt;/h2&gt;
-&lt;p&gt;Quinoa elegantly integrates frontend development into Quarkus projects. Here&amp;rsquo;s why you should care:&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2024/building-a-single-page-application-spa-with-quarkus-and-quinoa/</guid>
+      <description>Quarkus is an exciting framework for building modern Java applications, and Quinoa takes it up a notch by streamlining Single Page Application (SPA)...</description>
     </item>
     <item>
       <title>How to Build an Amazing and Productive Terminal</title>
-      <link>/posts/2024/how-to-build-an-amazing-and-productive-terminal/</link>
+      <link>https://ihelio.today/posts/2024/how-to-build-an-amazing-and-productive-terminal/</link>
       <pubDate>Tue, 09 Jul 2024 21:37:47 -0400</pubDate>
-      <guid>/posts/2024/how-to-build-an-amazing-and-productive-terminal/</guid>
-      <description>&lt;p&gt;Everyone wants a cool terminal and WezTerm is the coolest one in my opinion. It is easy to manage and we can setup a new environment with minutes in association with GNS stow - a symlink manager.&lt;/p&gt;
-&lt;p&gt;WezTerm is easy to configure since it is using lua and very friendly to read and learn. I am dumb at iTerm2 and Tmux, but it only took me 30 mins to start tweaking the config.
-Everyone wants a cool terminal, and WezTerm is the coolest one in my opinion. It&amp;rsquo;s easy to manage and we can set up a new environment within minutes using GNU Stow - a symlink manager.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2024/how-to-build-an-amazing-and-productive-terminal/</guid>
+      <description>Everyone wants a cool terminal and WezTerm is the coolest one in my opinion. It is easy to manage and we can setup a new environment with minutes in...</description>
     </item>
     <item>
       <title>Building a WebApp using React and Quarkus</title>
-      <link>/posts/2024/building-webapp-using-react-and-quarkus/</link>
+      <link>https://ihelio.today/posts/2024/building-a-webapp-using-react-and-quarkus/</link>
       <pubDate>Fri, 05 Jul 2024 23:21:14 -0400</pubDate>
-      <guid>/posts/2024/building-webapp-using-react-and-quarkus/</guid>
-      <description>&lt;p&gt;My first website was an adventure straight out of 2014, built with Dreamweaver and some basic HTML and CSS. Picture a static site, lovingly crafted to display the research and papers from our lab. The end product was, well, let’s just say not exactly internet-breaking. But hey, it was my first foray into the wild world of web development!&lt;/p&gt;
-&lt;p&gt;Fast forward 10 years, after diving deep into data science, machine learning, and platform engineering, I realized something horrifying: I was still a web development noob. Cue the dramatic music. This simply would not do! So, armed with determination and copious amounts of coffee, I embarked on a quest to master web app development and fill in the gaping holes in my skill set.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2024/building-a-webapp-using-react-and-quarkus/</guid>
+      <description>My first website was an adventure straight out of 2014, built with Dreamweaver and some basic HTML and CSS. Picture a static site, lovingly crafted to display...</description>
     </item>
     <item>
       <title>Coding Pattern: Kadane&#39;s Algo</title>
-      <link>/posts/2023/coding-pattern-kadanes-algo/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-kadanes-algo/</link>
       <pubDate>Thu, 30 Nov 2023 23:37:39 -0500</pubDate>
-      <guid>/posts/2023/coding-pattern-kadanes-algo/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Imagine you&amp;rsquo;re walking along a path that has treasure chests and traps.&lt;/strong&gt; Some chests have gold coins, and some traps take away coins. You want to find the part of the path where you can get the most coins.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The key idea&lt;/strong&gt;: It is a dynamic programming algorithm for finding the maximum contiguous sum subarray in a given array. It is a simple and efficient algorithm that works by maintaining two variables:&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-kadanes-algo/</guid>
+      <description>**Imagine you&amp;#39;re walking along a path that has treasure chests and traps.** Some chests have gold coins, and some traps take away coins. You want to find the...</description>
     </item>
     <item>
       <title>Coding Pattern: Dynamic Programming</title>
-      <link>/posts/2023/coding-pattern-dynamic-programming/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-dynamic-programming/</link>
       <pubDate>Thu, 30 Nov 2023 16:28:21 -0400</pubDate>
-      <guid>/posts/2023/coding-pattern-dynamic-programming/</guid>
-      <description>&lt;h1 id=&#34;preface&#34;&gt;Preface&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Facing the Dynamic Programming Challenge&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Like many others, I initially found Dynamic Programming (DP) on LeetCode daunting and perplexing. However, this challenging journey led to profound insights. My initial misconception was that DP was all about complexity, but I learned it&amp;rsquo;s fundamentally about simplifying complex problems into manageable segments. Here&amp;rsquo;s my journey into understanding DP and why it&amp;rsquo;s a crucial tool in a programmer&amp;rsquo;s toolkit.&lt;/p&gt;
-&lt;h1 id=&#34;unraveling-dynamic-programming&#34;&gt;Unraveling Dynamic Programming&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;The Essence of DP&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-dynamic-programming/</guid>
+      <description>**Facing the Dynamic Programming Challenge** Like many others, I initially found Dynamic Programming (DP) on LeetCode daunting and perplexing. However, this...</description>
     </item>
     <item>
       <title>Coding Pattern: Recursion</title>
-      <link>/posts/2023/coding-pattern-recursion/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-recursion/</link>
       <pubDate>Sun, 05 Nov 2023 16:41:32 -0500</pubDate>
-      <guid>/posts/2023/coding-pattern-recursion/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;Recursion is a way of solving a problem by breaking it down into smaller problems of the same type. The smaller problems are then solved recursively, until a base case is reached. The base case is a simple problem that can be solved without recursion.&lt;/p&gt;
-&lt;p&gt;Imagine you have a big box of toy blocks, and each block represents a problem you need to solve. Some blocks are big (complex problems), and some are tiny (simple problems). To solve a big problem, you take apart the big block to find smaller blocks inside, and then, if needed, you take apart those smaller blocks to find even tinier blocks inside them, and so on, until you reach the tiniest blocks that you can easily understand and solve.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-recursion/</guid>
+      <description>Recursion is a way of solving a problem by breaking it down into smaller problems of the same type. The smaller problems are then solved recursively, until a...</description>
     </item>
     <item>
       <title>Coding Pattern: Trie</title>
-      <link>/posts/2023/coding-pattern-trie/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-trie/</link>
       <pubDate>Sun, 22 Oct 2023 21:41:02 -0400</pubDate>
-      <guid>/posts/2023/coding-pattern-trie/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;The union-find algorithm is a data structure and algorithm that maintains a collection of disjoint sets. A disjoint set is a set of elements that are not connected to each other. The union-find algorithm can be used to perform the following operations:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Find:&lt;/strong&gt; Find the set that an element belongs to.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Union:&lt;/strong&gt; Merge two sets together.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The union-find algorithm is often used to solve problems that involve graph connectivity. For example, the union-find algorithm can be used to determine whether two nodes in a graph are connected, or to find all of the connected components in a graph.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-trie/</guid>
+      <description>The union-find algorithm is a data structure and algorithm that maintains a collection of disjoint sets. A disjoint set is a set of elements that are not...</description>
     </item>
     <item>
       <title>Coding Pattern: Two Pointers</title>
-      <link>/posts/2023/coding-pattern-two-pointers/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-two-pointers/</link>
       <pubDate>Thu, 12 Oct 2023 00:44:00 -0400</pubDate>
-      <guid>/posts/2023/coding-pattern-two-pointers/</guid>
-      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;It is not easy to summarize the pattern of &lt;strong&gt;Two Pointers&lt;/strong&gt;, but most likely it is used for list and linked list and the required time complexity is &lt;code&gt;O(N)&lt;/code&gt; - the underlying pattern allows us to use &lt;strong&gt;Two Pointers&lt;/strong&gt; to go through the list once to get the results.&lt;/p&gt;
-&lt;p&gt;Common usage:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Linear Structure&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;Typically applied to a sorted array or linked list.&lt;/li&gt;
-&lt;li&gt;Two pointers might move in the same direction or in opposite directions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Classic Patterns&lt;/strong&gt;:
-a. &lt;strong&gt;Converging Pointers&lt;/strong&gt; (often used in sorted arrays): - Start one pointer at the beginning (&lt;code&gt;left&lt;/code&gt;) and another at the end (&lt;code&gt;right&lt;/code&gt;). - Move them toward each other until they meet or until some condition is satisfied. - Example: Checking if a sorted array has two numbers that sum up to a target.
-b. &lt;strong&gt;Sliding Window&lt;/strong&gt;: - Use two pointers to represent the start and end of a window, then &amp;ldquo;slide&amp;rdquo; the window through the array/sequence. - Example: Finding the longest substring without repeating characters.
-c. &lt;strong&gt;Fast and Slow Pointers&lt;/strong&gt; (often used in linked lists): - One pointer moves twice (or more times) as fast as the other. - Useful for detecting cycles in a linked list (Floyd&amp;rsquo;s Cycle Detection Algorithm) or finding the middle element.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Usage Scenarios&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Finding a Pair with a Given Sum/Target&lt;/strong&gt;: Given a sorted array, determine if there&amp;rsquo;s a pair that sums up to a target. Move the &lt;code&gt;left&lt;/code&gt; and &lt;code&gt;right&lt;/code&gt; pointers based on the sum comparison to the target.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Removing Duplicates&lt;/strong&gt;: Two pointers can be used to remove duplicates from a sorted array or linked list, with one pointer iterating through and another pointing to the last non-duplicate item.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Palindrome Checking&lt;/strong&gt;: To determine if a string or linked list is a palindrome, you can use two pointers moving from the two ends towards the center.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Max/Min Subarray/Sublist&lt;/strong&gt;: Using the sliding window variant, find the subarray with the maximum/minimum sum or other properties.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Advantages&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;: The two-pointer technique can sometimes convert a brute force solution with time complexity O(n^2) to a more efficient O(n) solution.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Space&lt;/strong&gt;: This method is in-place and typically uses O(1) extra space.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;example-questions&#34;&gt;Example Questions&lt;/h3&gt;
-&lt;h4 id=&#34;88-merge-sorted-array&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/merge-sorted-array/&#34;&gt;88. Merge Sorted Array&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;You are given two integer arrays &lt;code&gt;nums1&lt;/code&gt; and &lt;code&gt;nums2&lt;/code&gt;, sorted in &lt;strong&gt;non-decreasing order&lt;/strong&gt;, and two integers &lt;code&gt;m&lt;/code&gt; and &lt;code&gt;n&lt;/code&gt;, representing the number of elements in &lt;code&gt;nums1&lt;/code&gt; and &lt;code&gt;nums2&lt;/code&gt; respectively.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-two-pointers/</guid>
+      <description>It is not easy to summarize the pattern of **Two Pointers**, but most likely it is used for list and linked list and the required time complexity is `O(N)` -...</description>
     </item>
     <item>
       <title>Coding Pattern: Divide &amp; Conquer</title>
-      <link>/posts/2023/coding-pattern-divide--conquer/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-divide-conquer/</link>
       <pubDate>Sun, 08 Oct 2023 22:46:03 -0400</pubDate>
-      <guid>/posts/2023/coding-pattern-divide--conquer/</guid>
-      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;The &lt;code&gt;Divide-n-Conquer&lt;/code&gt; strategy often employs recursion, as it relies on applying the same method to reduce the problem size by half and subsequently combining the outcomes for the ultimate solution.&lt;/p&gt;
-&lt;p&gt;I view &lt;code&gt;Divide-n-Conquer&lt;/code&gt; in a light similar to MapReduce, particularly when the task involves transformation. MapReduce breaks down a large problem into more manageable, independent sub-problems. Since each of these sub-problems operates autonomously, we can address them sequentially and still integrate their solutions. Key to this approach is ensuring the main problem can be independently segmented and the derived solutions can be seamlessly merged.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-divide-conquer/</guid>
+      <description>The `Divide-n-Conquer` strategy often employs recursion, as it relies on applying the same method to reduce the problem size by half and subsequently combining...</description>
     </item>
     <item>
       <title>Coding Pattern: Binary Search</title>
-      <link>/posts/2023/coding-pattern-binary-search/</link>
+      <link>https://ihelio.today/posts/2023/coding-pattern-binary-search/</link>
       <pubDate>Sun, 08 Oct 2023 16:28:21 -0400</pubDate>
-      <guid>/posts/2023/coding-pattern-binary-search/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;In one word, binary search is to search for a target in a sorted array. The idea is to shrink the search space to empty.&lt;/p&gt;
-&lt;p&gt;It must be sorted because we can be sure how to shrink the search space and we normally reduce the search space by half so the time complexity is &lt;code&gt;O(logN)&lt;/code&gt; where &lt;code&gt;N&lt;/code&gt; is the size of entire search space.&lt;/p&gt;
-&lt;p&gt;One common problem to understand &lt;em&gt;Binary Search&lt;/em&gt; is how to identify the boundary of the search space.&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/coding-pattern-binary-search/</guid>
+      <description>In one word, binary search is to search for a target in a sorted array. The idea is to shrink the search space to empty. It must be sorted because we can be...</description>
     </item>
     <item>
       <title>Why I don&#39;t like WSL</title>
-      <link>/posts/2023/why-i-dont-like-wsl/</link>
+      <link>https://ihelio.today/posts/2023/why-i-dont-like-wsl/</link>
       <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>/posts/2023/why-i-dont-like-wsl/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;If you are not using Java or Intellij Idea for your project, you could stop reading.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Couple months ago, I am very excited with WSL2 and it works perfectly for me to work on some Java projects in Intellij Idea. Somehow everything is upside down and obviously after some updates of windows though I still stick with win10.&lt;/p&gt;
-&lt;p&gt;Long story short! &lt;strong&gt;Intellij Idea is really slow with WSL regarding the version&lt;/strong&gt;. The indexing takes forever and it is not new as I found in this &lt;a href=&#34;https://youtrack.jetbrains.com/issue/WI-63786/Working-with-projects-on-WSL-is-extremely-slow-basically-not-possible-to-work-with&#34;&gt;thread&lt;/a&gt; and this &lt;a href=&#34;https://youtrack.jetbrains.com/issue/IDEA-274193/IntelliJ-extremely-slow-on-listing-directory-contents-of-WSL-filesystem&#34;&gt;thread&lt;/a&gt; and the problem could be one of the following:&lt;/p&gt;</description>
+      <guid>https://ihelio.today/posts/2023/why-i-dont-like-wsl/</guid>
+      <description>**If you are not using Java or Intellij Idea for your project, you could stop reading.** Couple months ago, I am very excited with WSL2 and it works perfectly...</description>
     </item>
   </channel>
 </rss>

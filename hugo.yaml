@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://ihelio.today"
 languageCode: en-us
 title: iHelio
 pagination.pagerSize: 10
@@ -8,6 +8,28 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: false
+  indices:
+    - name: categories
+      weight: 100
+    - name: tags
+      weight: 80
+    - name: date
+      weight: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
 
 googleAnalytics: G-R4SSGN5Y2Z
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on iHelio</title>
+    <link>https://ihelio.today/tags/java/</link>
+    <description>Recent content in Java on iHelio</description>
+    <image>
+      <title>iHelio</title>
+      <url>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ihelio.today/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Nov 2025 10:00:00 +0300</lastBuildDate>
+    <atom:link href="https://ihelio.today/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Concurrency Revisited: Synchronized vs. ReentrantLock</title>
+      <link>https://ihelio.today/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>https://ihelio.today/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</guid>
+      <description>*Java Concurrency in Practice* is the bible of Java multi-threading. It’s dense, thorough, and frankly, a bit intimidating. For years, I relied heavily on...</description>
+    </item>
+  </channel>
+</rss>
