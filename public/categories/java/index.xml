@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>JAVA on iHelio</title>
+    <title>Java on iHelio</title>
     <link>/categories/java/</link>
-    <description>Recent content in JAVA on iHelio</description>
+    <description>Recent content in Java on iHelio</description>
     <image>
       <title>iHelio</title>
       <url>/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Sep 2023 16:17:15 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 10:00:00 +0300</lastBuildDate>
     <atom:link href="/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Concurrency Revisited: Synchronized vs. ReentrantLock</title>
+      <link>/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</guid>
+      <description>&lt;h1 id=&#34;java-concurrency-revisited-synchronized-vs-reentrantlock&#34;&gt;Java Concurrency Revisited: Synchronized vs. ReentrantLock&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Java Concurrency in Practice&lt;/em&gt; is the bible of Java multi-threading. It’s dense, thorough, and frankly, a bit intimidating.&lt;/p&gt;
+&lt;p&gt;For years, I relied heavily on Java&amp;rsquo;s &lt;code&gt;java.util.concurrent&lt;/code&gt; package (ConcurrentHashMap, my beloved), ignoring the low-level mechanics underneath. Why reinvent the wheel when the standard library is so good?&lt;/p&gt;
+&lt;p&gt;But to truly master scalability, you have to understand what happens under the hood. Recently, I decided to peel back the layers and revisit the building blocks of Java concurrency: &lt;code&gt;synchronized&lt;/code&gt; and &lt;code&gt;ReentrantLock&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sneak peek at the asynchronous Java</title>
       <link>/posts/2023/sneak-peek-at-the-asynchronous-java/</link>

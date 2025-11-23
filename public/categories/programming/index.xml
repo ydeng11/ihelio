@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jun 2025 16:30:07 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 10:00:00 +0300</lastBuildDate>
     <atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Concurrency Revisited: Synchronized vs. ReentrantLock</title>
+      <link>/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/</guid>
+      <description>&lt;h1 id=&#34;java-concurrency-revisited-synchronized-vs-reentrantlock&#34;&gt;Java Concurrency Revisited: Synchronized vs. ReentrantLock&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Java Concurrency in Practice&lt;/em&gt; is the bible of Java multi-threading. It’s dense, thorough, and frankly, a bit intimidating.&lt;/p&gt;
+&lt;p&gt;For years, I relied heavily on Java&amp;rsquo;s &lt;code&gt;java.util.concurrent&lt;/code&gt; package (ConcurrentHashMap, my beloved), ignoring the low-level mechanics underneath. Why reinvent the wheel when the standard library is so good?&lt;/p&gt;
+&lt;p&gt;But to truly master scalability, you have to understand what happens under the hood. Recently, I decided to peel back the layers and revisit the building blocks of Java concurrency: &lt;code&gt;synchronized&lt;/code&gt; and &lt;code&gt;ReentrantLock&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vibe Driven Development</title>
       <link>/posts/2025/vibe-driven-development/</link>

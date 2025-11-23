@@ -11,12 +11,26 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jun 2025 16:30:07 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 10:00:00 +0300</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed System</title>
+      <link>/categories/distributed-system/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>/categories/distributed-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>/categories/java/</link>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
+      <guid>/categories/java/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Programming</title>
       <link>/categories/programming/</link>
-      <pubDate>Sun, 08 Jun 2025 16:30:07 +0300</pubDate>
+      <pubDate>Sat, 22 Nov 2025 10:00:00 +0300</pubDate>
       <guid>/categories/programming/</guid>
       <description></description>
     </item>
@@ -60,20 +74,6 @@
       <link>/categories/system/</link>
       <pubDate>Tue, 09 Jul 2024 21:37:51 -0400</pubDate>
       <guid>/categories/system/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Distributed System</title>
-      <link>/categories/distributed-system/</link>
-      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>/categories/distributed-system/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JAVA</title>
-      <link>/categories/java/</link>
-      <pubDate>Sat, 16 Sep 2023 16:17:15 -0400</pubDate>
-      <guid>/categories/java/</guid>
       <description></description>
     </item>
     <item>

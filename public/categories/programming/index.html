@@ -164,6 +164,21 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Java Concurrency Revisited: Synchronized vs. ReentrantLock
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Java Concurrency Revisited: Synchronized vs. ReentrantLock Java Concurrency in Practice is the bible of Java multi-threading. It’s dense, thorough, and frankly, a bit intimidating.
+For years, I relied heavily on Java’s java.util.concurrent package (ConcurrentHashMap, my beloved), ignoring the low-level mechanics underneath. Why reinvent the wheel when the standard library is so good?
+But to truly master scalability, you have to understand what happens under the hood. Recently, I decided to peel back the layers and revisit the building blocks of Java concurrency: synchronized and ReentrantLock.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-22 10:00:00 +0300 +0300'>November 22, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;995 words&nbsp;·&nbsp;Me</footer>
+  <a class="entry-link" aria-label="post link to Java Concurrency Revisited: Synchronized vs. ReentrantLock" href="/posts/2025/java-concurrency-revisited-synchronized-vs-reentrantlock/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Vibe Driven Development
     </h2>
   </header>
@@ -286,21 +301,6 @@ Find: Find the set that an element belongs to. Union: Merge two sets together.
   </div>
   <footer class="entry-footer"><span title='2023-10-22 21:41:02 -0400 EDT'>October 22, 2023</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;1381 words&nbsp;·&nbsp;Me</footer>
   <a class="entry-link" aria-label="post link to Coding Pattern: Trie" href="/posts/2023/coding-pattern-trie/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Coding Pattern: Two Pointers
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Overview It is not easy to summarize the pattern of Two Pointers, but most likely it is used for list and linked list and the required time complexity is O(N) - the underlying pattern allows us to use Two Pointers to go through the list once to get the results.
-Common usage:
-Linear Structure: Typically applied to a sorted array or linked list. Two pointers might move in the same direction or in opposite directions. Classic Patterns: a. Converging Pointers (often used in sorted arrays): - Start one pointer at the beginning (left) and another at the end (right). - Move them toward each other until they meet or until some condition is satisfied. - Example: Checking if a sorted array has two numbers that sum up to a target. b. Sliding Window: - Use two pointers to represent the start and end of a window, then “slide” the window through the array/sequence. - Example: Finding the longest substring without repeating characters. c. Fast and Slow Pointers (often used in linked lists): - One pointer moves twice (or more times) as fast as the other. - Useful for detecting cycles in a linked list (Floyd’s Cycle Detection Algorithm) or finding the middle element. Usage Scenarios: Finding a Pair with a Given Sum/Target: Given a sorted array, determine if there’s a pair that sums up to a target. Move the left and right pointers based on the sum comparison to the target. Removing Duplicates: Two pointers can be used to remove duplicates from a sorted array or linked list, with one pointer iterating through and another pointing to the last non-duplicate item. Palindrome Checking: To determine if a string or linked list is a palindrome, you can use two pointers moving from the two ends towards the center. Max/Min Subarray/Sublist: Using the sliding window variant, find the subarray with the maximum/minimum sum or other properties. Advantages: Efficiency: The two-pointer technique can sometimes convert a brute force solution with time complexity O(n^2) to a more efficient O(n) solution. Space: This method is in-place and typically uses O(1) extra space. Example Questions 88. Merge Sorted Array You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-10-12 00:44:00 -0400 EDT'>October 12, 2023</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1620 words&nbsp;·&nbsp;Me</footer>
-  <a class="entry-link" aria-label="post link to Coding Pattern: Two Pointers" href="/posts/2023/coding-pattern-two-pointers/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

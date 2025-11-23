@@ -179,6 +179,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Expose NAS Services with Att Gateway
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Recently I changed my ISP to ATT to try their fiber, and they gave me the bgw320 as the gateway for the Internet service. And I have trouble connecting to my Synology’s services like Jellyfin.
+I suspect it has some conflicts with the network of these docker services running in Synology or the internet setup of Synology. Considering the configuration of docker network could be another rabbit hole, I didn’t go that route. I decided to connect the gateway with my own router and use the passthrough function in the gateway so I can do the port forwarding in my router.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-16 16:17:15 -0400 EDT'>September 16, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;210 words&nbsp;·&nbsp;Me</footer>
+  <a class="entry-link" aria-label="post link to Expose NAS Services with Att Gateway" href="/posts/2023/expose-nas-services-with-att-gateway/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">FLP impossibility in plain language
     </h2>
   </header>
@@ -304,19 +318,6 @@ The motivation behind Quarkus was to breathe new life into the Java ecosystem fo
   </div>
   <footer class="entry-footer"><span title='2023-09-16 16:17:15 -0400 EDT'>September 16, 2023</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;1198 words&nbsp;·&nbsp;Me</footer>
   <a class="entry-link" aria-label="post link to How to make a microservice with Quarkus" href="/posts/2023/how-to-make-a-microservice-with-quarkus/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to route transmission to VPN container?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Intro When you have a NAS at home, it feel bad if you don’t keep it running for something even if you don’t use it. It is the major backup to store the photos we shoot with our iphones. However, it is just basic use and hosting a media center with it sounds more cool. I used to use transmission-openvpn and it works perfectly, however, my VPN expires and I decided to use proton free tier. This is where things go south - I spent two days on it and I cannot get it work. When I am about to give up, I found a better approach for my purpose - running transmission and vpn in separate docker container and route transmission to vpn conatiner. It sounds a great idea in the first place given we should only do one job for each service - unix’s princinple.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-09-16 16:17:15 -0400 EDT'>September 16, 2023</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;750 words&nbsp;·&nbsp;Me</footer>
-  <a class="entry-link" aria-label="post link to How to route transmission to VPN container?" href="/posts/2023/how-to-route-transmission-to-vpn-container/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
